@@ -1,0 +1,205 @@
+# =============================================================================
+# İZLENECEK BANKA KAMPANYA SAYFALARI
+# =============================================================================
+# Bir bankayı takip etmek istemiyorsan altındaki  enabled: true  satırını
+# enabled: false  yap. Silmene gerek yok.
+# =============================================================================
+
+targets:
+
+  # ---------------------------- ÖZEL BANKALAR ------------------------------
+  - name: "Garanti BBVA"
+    url: "https://www.garantibbva.com.tr/kampanyalar"
+    include_patterns:
+      - "/kampanyalar/"
+    exclude_patterns:
+      - "/kampanyalar/?$"
+      - "/arsiv"
+      - "/gecmis"
+    wait_ms: 3000
+    scroll: true
+    detail: true
+    enabled: true
+
+  - name: "İş Bankası"
+    url: "https://www.isbank.com.tr/kampanyalar"
+    include_patterns:
+      - "/kampanyalar/"
+    exclude_patterns:
+      - "/kampanyalar/?$"
+      - "/arsiv"
+    wait_ms: 3000
+    scroll: true
+    detail: true
+    enabled: true
+
+  - name: "Maximum (İş Bankası Kart)"
+    url: "https://www.maximum.com.tr/kampanyalar"
+    include_patterns:
+      - "/kampanyalar/"
+    exclude_patterns:
+      - "/kampanyalar/?$"
+      - "/arsiv"
+      - "/biten"
+    wait_ms: 3000
+    scroll: true
+    detail: true
+    enabled: true
+
+  - name: "Yapı Kredi"
+    url: "https://www.yapikredi.com.tr/kampanyalar"
+    include_patterns:
+      - "/kampanyalar/"
+    exclude_patterns:
+      - "/kampanyalar/?$"
+      - "/arsiv"
+    wait_ms: 3000
+    scroll: true
+    detail: true
+    enabled: true
+
+  - name: "World (Yapı Kredi Kart)"
+    url: "https://www.worldcard.com.tr/kampanyalar"
+    include_patterns:
+      - "/kampanya"
+    exclude_patterns:
+      - "/kampanyalar/?$"
+      - "/gecmis"
+      - "/arsiv"
+    wait_ms: 3000
+    scroll: true
+    detail: true
+    enabled: true
+
+  - name: "Akbank"
+    url: "https://www.akbank.com/kampanyalar"
+    include_patterns:
+      - "/kampanyalar/"
+    exclude_patterns:
+      - "/kampanyalar/?$"
+      - "/arsiv"
+    wait_ms: 3000
+    scroll: true
+    detail: true
+    enabled: true
+
+  # ---------------------------- KAMU BANKALARI -----------------------------
+  - name: "Ziraat Bankası"
+    url: "https://www.ziraatbank.com.tr/tr/kampanyalar"
+    include_patterns:
+      - "/tr/kampanyalar/"
+    exclude_patterns:
+      - "/kampanyalar/?$"
+      - "/arsiv"
+    wait_ms: 3000
+    scroll: true
+    detail: true
+    enabled: true
+
+  - name: "VakıfBank (Vakıfkart)"
+    url: "https://www.vakifkart.com.tr/kampanyalar"
+    include_patterns:
+      - "/kampanyalar/"
+    exclude_patterns:
+      - "/kampanyalar/?$"
+      - "/arsiv"
+      - "/biten"
+    wait_ms: 3000
+    scroll: true
+    detail: true
+    enabled: true
+
+  - name: "Halkbank"
+    url: "https://www.halkbank.com.tr/tr/bireysel/kampanyalar"
+    include_patterns:
+      - "/kampanyalar/"
+    exclude_patterns:
+      - "/kampanyalar/?$"
+      - "/arsiv"
+    wait_ms: 3000
+    scroll: true
+    detail: true
+    enabled: true
+
+  # ------------------------- DİJİTAL / DİĞER -------------------------------
+  - name: "Enpara.com"
+    url: "https://www.enpara.com/kampanyalar"
+    include_patterns:
+      - "/kampanyalar/"
+    exclude_patterns:
+      - "/kampanyalar/?$"
+      - "/gecmis"
+    wait_ms: 3000
+    scroll: true
+    detail: true
+    enabled: true
+
+  - name: "QNB"
+    url: "https://www.qnb.com.tr/kampanyalar"
+    include_patterns:
+      - "/kampanyalar/"
+    exclude_patterns:
+      - "/kampanyalar/?$"
+      - "arsivdeki"
+      - "/private/"
+    wait_ms: 3000
+    scroll: true
+    detail: true
+    enabled: true
+
+  - name: "QNB Kart"
+    url: "https://www.qnbcard.com.tr/kampanyalar"
+    include_patterns:
+      - "/kampanyalar/"
+    exclude_patterns:
+      - "/kampanyalar/?$"
+      - "/arsiv"
+      - "/gecmis"
+    wait_ms: 3000
+    scroll: true
+    detail: true
+    enabled: true
+
+  - name: "TEB"
+    url: "https://www.teb.com.tr/sizin-icin/kampanyalar/"
+    include_patterns:
+      - "/kampanyalar/"
+    exclude_patterns:
+      - "/kampanyalar/?$"
+      - "/arsiv"
+    wait_ms: 3000
+    scroll: true
+    detail: true
+    enabled: true
+
+  - name: "DenizBank"
+    url: "https://www.denizbank.com/kampanya"
+    include_patterns:
+      - "/kampanya/"
+    exclude_patterns:
+      - "/kampanya/?$"
+      - "/arsiv"
+      - "/gecmis"
+    wait_ms: 3000
+    scroll: true
+    detail: true
+    enabled: true
+
+  - name: "Deniz Bonus"
+    url: "https://www.bonusdenizbank.com/bonus-kampanyalari"
+    include_patterns:
+      - "kampanya"
+    exclude_patterns:
+      - "bonus-kampanyalari/?$"
+      - "/arsiv"
+      - "/gecmis"
+    wait_ms: 3000
+    scroll: true
+    detail: true
+    enabled: true
+
+# -----------------------------------------------------------------------------
+# NOT: Bankalar site yapılarını değiştirebilir. Bir kaynaktan hiç kampanya
+# gelmiyorsa, Actions log'unda "[Banka Adı] 0 item bulundu" satırını görürsün.
+# O zaman ilgili include_patterns satırını gevşetmek yeterlidir.
+# -----------------------------------------------------------------------------

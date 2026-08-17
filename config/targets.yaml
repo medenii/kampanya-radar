@@ -198,6 +198,19 @@ targets:
     detail: true
     enabled: true
 
+  - name: "Getir Finans"
+    url: "https://www.getirfinans.com/kampanyalar/"
+    include_patterns:
+      - "/kampanyalar/"
+    exclude_patterns:
+      - "/kampanyalar/?$"
+      - "/arsiv"
+      - "/gecmis"
+    wait_ms: 3000
+    scroll: true
+    detail: true
+    enabled: true
+ 
 # -----------------------------------------------------------------------------
 # NOT: Bankalar site yapılarını değiştirebilir. Bir kaynaktan hiç kampanya
 # gelmiyorsa, Actions log'unda "[Banka Adı] 0 item bulundu" satırını görürsün.

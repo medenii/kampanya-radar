@@ -69,8 +69,8 @@ jobs:
             echo "State değişmedi, commit yok."
           else
             git commit -m "chore(state): $(date -u +'%Y-%m-%d %H:%M') güncellemesi [skip ci]"
-            git pull --rebase --autostash origin ${{ github.ref_name }} || git rebase --abort
-            git push
+            git pull --no-rebase --autostash origin ${{ github.ref_name }} || true
+            git push || true
           fi
 
       - name: Hata durumunda log'u sakla

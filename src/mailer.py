@@ -8,6 +8,7 @@ import ssl
 from datetime import datetime
 from email.message import EmailMessage
 from email.utils import formataddr, formatdate
+from pathlib import Path
 
 from .config import settings
 from .llm import CampaignSummary
@@ -124,7 +125,8 @@ def build_text(summaries: list[CampaignSummary]) -> str:
     return "\n".join(lines)
 
 
-def send_email(subject: str, html_body: str, text_body: str) -> bool:
+def send_email(subject: str, html_body: str, text_body: str,
+               attachment: "Path | None" = None) -> bool:
     missing = settings.validate_mail()
     if missing:
         log.error("E-posta gönderilemedi, eksik ayar: %s", ", ".join(missing))
@@ -137,6 +139,23 @@ def send_email(subject: str, html_body: str, text_body: str) -> bool:
     msg["Date"] = formatdate(localtime=True)
     msg.set_content(text_body)
     msg.add_alternative(html_body, subtype="html")
+
+    if attachment:
+        attachment = Path(attachment)
+        if attachment.exists():
+            size_mb = attachment.stat().st_size / 1_048_576
+            if size_mb > 20:
+                log.warning("Ek çok büyük (%.1f MB), atlanıyor.", size_mb)
+            else:
+                msg.add_attachment(
+                    attachment.read_bytes(),
+                    maintype="application",
+                    subtype="vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+                    filename=attachment.name,
+                )
+                log.info("Ek eklendi: %s (%.2f MB)", attachment.name, size_mb)
+        else:
+            log.warning("Ek bulunamadı: %s", attachment)
 
     context = ssl.create_default_context()
     try:
@@ -157,12 +176,58 @@ def send_email(subject: str, html_body: str, text_body: str) -> bool:
         return False
 
 
-def send_campaigns(summaries: list[CampaignSummary], errors: list[str] | None = None) -> bool:
+def send_campaigns(summaries: list[CampaignSummary], errors: list[str] | None = None,
+                   attachment: Path | None = None, total_rows: int = 0) -> bool:
     if not summaries:
         log.info("Yeni kampanya yok — e-posta gönderilmiyor.")
         return False
     subject = f"🏦 {len(summaries)} yeni kampanya — {datetime.now():%d.%m.%Y}"
-    return send_email(subject, build_html(summaries, errors), build_text(summaries))
+    html = build_html(summaries, errors)
+    if attachment:
+        html = html.replace(
+            "Bu e-posta otomatik oluşturuldu",
+            f"📎 Ekteki Excel'de {total_rows} kampanya kategorilere ayrılmış halde<br>"
+            "Bu e-posta otomatik oluşturuldu",
+        )
+    return send_email(subject, html, build_text(summaries), attachment)
+
+
+def send_daily_digest(attachment: Path | None, total_rows: int, new_count: int,
+                      errors: list[str] | None = None) -> bool:
+    """Yeni kampanya olmasa bile günlük Excel'i gönderir."""
+    today = datetime.now().strftime("%d.%m.%Y")
+    error_note = ""
+    if errors:
+        rows = "".join(f"<li>{html.escape(e)}</li>" for e in errors)
+        error_note = (
+            "<div style='border:1px solid #fdd;background:#fff8f8;border-radius:10px;"
+            "padding:12px 14px;font-size:12px;color:#a50e0e;margin-top:16px;'>"
+            f"<strong>Taranamayan kaynaklar</strong><ul style='margin:6px 0 0;"
+            f"padding-left:18px;'>{rows}</ul></div>"
+        )
+    body = f"""<!DOCTYPE html><html lang="tr"><head><meta charset="utf-8"></head>
+<body style="margin:0;padding:28px 12px;background:#f1f3f4;
+             font-family:-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;">
+  <div style="max-width:560px;margin:0 auto;background:#fff;border-radius:12px;
+              padding:26px 28px;border:1px solid #e3e6ea;">
+    <h1 style="margin:0 0 6px;font-size:20px;color:#202124;">🏦 Günlük Kampanya Raporu</h1>
+    <p style="margin:0 0 18px;font-size:13px;color:#5f6368;">{today}</p>
+    <p style="margin:0 0 8px;font-size:14px;color:#3c4043;">
+      Bugün yeni kampanya bulunmadı. Takip listesi güncel.
+    </p>
+    <p style="margin:0;font-size:14px;color:#3c4043;">
+      📎 Ekteki Excel'de toplam <strong>{total_rows}</strong> kampanya kategorilere
+      ayrılmış halde bulunuyor.
+    </p>
+    {error_note}
+    <p style="margin:20px 0 0;font-size:11px;color:#80868b;">
+      Kampanya Radar • otomatik oluşturuldu
+    </p>
+  </div>
+</body></html>"""
+    text = (f"Günlük Kampanya Raporu — {today}\n"
+            f"Bugün yeni kampanya yok. Excel'de toplam {total_rows} kampanya var.")
+    return send_email(f"📊 Günlük kampanya raporu — {today}", body, text, attachment)
 
 
 def send_error_report(errors: list[str]) -> bool:

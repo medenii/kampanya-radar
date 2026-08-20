@@ -11,6 +11,7 @@ import yaml
 ROOT = Path(__file__).resolve().parent.parent
 CONFIG_PATH = ROOT / "config" / "targets.yaml"
 STATE_PATH = Path(os.getenv("STATE_PATH", ROOT / "data" / "state.json"))
+EXCEL_PATH = Path(os.getenv("EXCEL_PATH", ROOT / "data" / "kampanyalar.xlsx"))
 
 
 def _env_bool(key: str, default: bool = False) -> bool:
@@ -72,6 +73,8 @@ class Settings:
     nav_timeout_ms: int = _env_int("NAV_TIMEOUT_MS", 45000)
     retention_days: int = _env_int("RETENTION_DAYS", 180)
     send_error_report: bool = _env_bool("SEND_ERROR_REPORT", True)
+    # true: yeni kampanya olmasa bile her gün Excel'li özet maili gider
+    daily_digest: bool = _env_bool("DAILY_DIGEST", True)
     headless: bool = _env_bool("HEADLESS", True)
 
     def validate_mail(self) -> list[str]:

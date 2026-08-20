@@ -6,9 +6,10 @@ import asyncio
 import logging
 import sys
 
-from .config import load_targets, settings
+from .config import EXCEL_PATH, load_targets, settings
+from .excel import build_workbook
 from .llm import summarize_all
-from .mailer import send_campaigns, send_error_report
+from .mailer import send_campaigns, send_daily_digest, send_error_report
 from .scraper import ScrapedItem, enrich_details, run_scrape
 from .state import StateStore
 
@@ -34,6 +35,9 @@ def parse_args() -> argparse.Namespace:
     p.add_argument("--only", default="", help="Sadece adı eşleşen hedefi tara")
     p.add_argument("--reset-source", default="",
                    help="Bu kaynağın kayıtlarını sil (yeniden bootstrap için)")
+    p.add_argument("--excel-only", action="store_true",
+                   help="Tarama yapma; mevcut state.json'dan sadece Excel üret")
+    p.add_argument("--no-excel", action="store_true", help="Excel üretme")
     p.add_argument("--debug", action="store_true")
     return p.parse_args()
 
@@ -50,6 +54,11 @@ def main() -> int:
         return 1
 
     store = StateStore()
+
+    if args.excel_only:
+        path, total, new_count = build_workbook(store.data["seen"], EXCEL_PATH)
+        log.info("Excel hazır: %s (%d satır)", path, total)
+        return 0
 
     if args.reset_source:
         keys = [k for k, v in store.data["seen"].items()
@@ -125,21 +134,39 @@ def main() -> int:
             print(f"  HATA: {e}")
         return 0
 
-    sent = send_campaigns(summaries, errors) if summaries else False
+    # Önce state'i güncelle ki Excel bugünün kampanyalarını da içersin
+    store.mark_seen(new_to_notify, notified=False)
+    store.mark_seen(bootstrap_items, notified=False)
+
+    # Excel'i state'ten sıfırdan üret (kategorilere ayrılmış, geçmiş dahil)
+    excel_path = None
+    total_rows = new_rows = 0
+    if not args.no_excel:
+        try:
+            excel_path, total_rows, new_rows = build_workbook(store.data["seen"], EXCEL_PATH)
+        except Exception as exc:  # noqa: BLE001
+            log.error("Excel üretilemedi: %s", exc)
+            excel_path = None
+
+    if summaries:
+        sent = send_campaigns(summaries, errors, excel_path, total_rows)
+    elif settings.daily_digest:
+        sent = send_daily_digest(excel_path, total_rows, new_rows, errors)
+    else:
+        sent = False
     if errors and not sent:
         send_error_report(errors)
 
-    # State'i güncelle: bildirilenler notified=True
+    # Bildirilenleri işaretle
     store.mark_seen(new_to_notify, notified=sent)
-    store.mark_seen(bootstrap_items, notified=False)
     for s in summaries:
         from .state import item_key
         rec = store.data["seen"].get(item_key(s.url))
         if rec:
             rec["notified"] = sent
     store.prune()
-    store.record_run({"stats": stats, "new": len(new_to_notify),
-                      "sent": sent, "errors": errors})
+    store.record_run({"stats": stats, "new": len(new_to_notify), "sent": sent,
+                      "excel_rows": total_rows, "errors": errors})
     store.save()
 
     # Tüm hedefler patladıysa iş akışını kırmızı yap ki fark edelim

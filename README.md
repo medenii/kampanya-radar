@@ -4,7 +4,7 @@ Banka kampanya sayfalarını her gün tarar, **sadece yeni eklenenleri** tespit 
 ücretsiz bir LLM ile özetler ve sana HTML e-posta gönderir. Sunucu yok, maliyet yok.
 
 | Bileşen | Çözüm |
-|---|---|---|
+|---|---|
 | Cron / Runner | GitHub Actions (public repo: sınırsız dakika) |
 | Tarayıcı | Playwright Chromium (runner içinde) |
 | Hafıza / DB | `data/state.json` + otomatik commit |

@@ -3,13 +3,13 @@
 Banka kampanya sayfalarını her gün tarar, **sadece yeni eklenenleri** tespit eder,
 ücretsiz bir LLM ile özetler ve sana HTML e-posta gönderir. Sunucu yok, maliyet yok.
 
-| Bileşen | Çözüm | Maliyet |
+| Bileşen | Çözüm |
 |---|---|---|
-| Cron / Runner | GitHub Actions (public repo: sınırsız dakika) | $0 |
-| Tarayıcı | Playwright Chromium (runner içinde) | $0 |
-| Hafıza / DB | `data/state.json` + otomatik commit | $0 |
-| LLM | Google Gemini free tier (yedek: Groq) | $0 |
-| E-posta | Gmail SMTP + App Password | $0 |
+| Cron / Runner | GitHub Actions (public repo: sınırsız dakika) |
+| Tarayıcı | Playwright Chromium (runner içinde) |
+| Hafıza / DB | `data/state.json` + otomatik commit |
+| LLM | Google Gemini free tier (yedek: Groq) |
+| E-posta | Gmail SMTP + App Password |
 
 ---
 

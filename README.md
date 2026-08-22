@@ -1,4 +1,4 @@
-# 🏦 Kampanya Radar — $0 Maliyetli Banka Kampanya Takip Agent'ı
+# 🏦 Kampanya Radar — Banka Kampanya Takip Agent'ı
 
 Banka kampanya sayfalarını her gün tarar, **sadece yeni eklenenleri** tespit eder,
 ücretsiz bir LLM ile özetler ve sana HTML e-posta gönderir. Sunucu yok, maliyet yok.

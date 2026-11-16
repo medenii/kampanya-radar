@@ -2,95 +2,6 @@
   "runs": [
     {
       "errors": [],
-      "excel_rows": 1199,
-      "new": 7,
-      "sent": true,
-      "stats": {
-        "Akbank": {
-          "bootstrap": false,
-          "new": 1,
-          "scraped": 115
-        },
-        "Deniz Bonus": {
-          "bootstrap": false,
-          "new": 0,
-          "scraped": 43
-        },
-        "DenizBank": {
-          "bootstrap": false,
-          "new": 3,
-          "scraped": 59
-        },
-        "Enpara.com": {
-          "bootstrap": false,
-          "new": 0,
-          "scraped": 24
-        },
-        "Garanti BBVA": {
-          "bootstrap": false,
-          "new": 0,
-          "scraped": 15
-        },
-        "Getir Finans": {
-          "bootstrap": false,
-          "new": 1,
-          "scraped": 10
-        },
-        "Halkbank": {
-          "bootstrap": false,
-          "new": 0,
-          "scraped": 6
-        },
-        "Maximum (İş Bankası Kart)": {
-          "bootstrap": false,
-          "new": 0,
-          "scraped": 626
-        },
-        "QNB": {
-          "bootstrap": false,
-          "new": 0,
-          "scraped": 2
-        },
-        "QNB Kart": {
-          "bootstrap": false,
-          "new": 0,
-          "scraped": 13
-        },
-        "TEB": {
-          "bootstrap": true,
-          "new": 0,
-          "scraped": 0
-        },
-        "VakıfBank (Vakıfkart)": {
-          "bootstrap": false,
-          "new": 2,
-          "scraped": 12
-        },
-        "World (Yapı Kredi Kart)": {
-          "bootstrap": false,
-          "new": 0,
-          "scraped": 6
-        },
-        "Yapı Kredi": {
-          "bootstrap": false,
-          "new": 0,
-          "scraped": 2
-        },
-        "Ziraat Bankası": {
-          "bootstrap": false,
-          "new": 0,
-          "scraped": 3
-        },
-        "İş Bankası": {
-          "bootstrap": false,
-          "new": 0,
-          "scraped": 47
-        }
-      },
-      "ts": "2026-09-15T11:37:16+00:00"
-    },
-    {
-      "errors": [],
       "excel_rows": 1207,
       "new": 8,
       "sent": true,
@@ -5249,6 +5160,88 @@
         }
       },
       "ts": "2026-11-15T13:52:48+00:00"
+    },
+    {
+      "errors": [
+        "Maximum (İş Bankası Kart): TimeoutError: Page.goto: Timeout 45000ms exceeded.\nCall log:\nnavigating to \"https://www.maximum.com.tr/kampanyalar\", waiting until \"domcontentloaded\"\n",
+        "VakıfBank (Vakıfkart): TimeoutError: Page.goto: Timeout 45000ms exceeded.\nCall log:\nnavigating to \"https://www.vakifkart.com.tr/kampanyalar\", waiting until \"domcontentloaded\"\n"
+      ],
+      "excel_rows": 1522,
+      "new": 11,
+      "sent": true,
+      "stats": {
+        "Akbank": {
+          "bootstrap": false,
+          "new": 0,
+          "scraped": 134
+        },
+        "Deniz Bonus": {
+          "bootstrap": false,
+          "new": 1,
+          "scraped": 33
+        },
+        "DenizBank": {
+          "bootstrap": false,
+          "new": 0,
+          "scraped": 60
+        },
+        "Enpara.com": {
+          "bootstrap": false,
+          "new": 0,
+          "scraped": 27
+        },
+        "Garanti BBVA": {
+          "bootstrap": false,
+          "new": 0,
+          "scraped": 17
+        },
+        "Getir Finans": {
+          "bootstrap": false,
+          "new": 0,
+          "scraped": 9
+        },
+        "Halkbank": {
+          "bootstrap": false,
+          "new": 0,
+          "scraped": 6
+        },
+        "QNB": {
+          "bootstrap": false,
+          "new": 1,
+          "scraped": 3
+        },
+        "QNB Kart": {
+          "bootstrap": false,
+          "new": 6,
+          "scraped": 13
+        },
+        "TEB": {
+          "bootstrap": true,
+          "new": 0,
+          "scraped": 0
+        },
+        "World (Yapı Kredi Kart)": {
+          "bootstrap": false,
+          "new": 0,
+          "scraped": 6
+        },
+        "Yapı Kredi": {
+          "bootstrap": false,
+          "new": 0,
+          "scraped": 1
+        },
+        "Ziraat Bankası": {
+          "bootstrap": false,
+          "new": 0,
+          "scraped": 3
+        },
+        "İş Bankası": {
+          "bootstrap": false,
+          "new": 3,
+          "scraped": 48
+        }
+      },
+      "ts": "2026-11-16T15:36:54+00:00"
     }
   ],
   "seen": {
@@ -5262,7 +5255,7 @@
     },
     "0070303a6ce82fe86a2a": {
       "first_seen": "2026-09-04T11:03:23+00:00",
-      "last_seen": "2026-11-15T13:52:05+00:00",
+      "last_seen": "2026-11-16T15:30:30+00:00",
       "notified": true,
       "source": "DenizBank",
       "title": "Tl Mevduatiniza Hos Geldin Faizi",
@@ -5302,7 +5295,7 @@
     },
     "0147867c972c1c8f334b": {
       "first_seen": "2026-08-19T06:58:02+00:00",
-      "last_seen": "2026-11-15T13:52:05+00:00",
+      "last_seen": "2026-11-16T15:30:30+00:00",
       "notified": false,
       "source": "Akbank",
       "title": "Akbanklı Kadınlar Platformu’na Ücretsiz Mamografi ve Smear Testi",
@@ -5334,7 +5327,7 @@
     },
     "026e002201df79fc2354": {
       "first_seen": "2026-10-24T10:44:38+00:00",
-      "last_seen": "2026-11-14T13:23:41+00:00",
+      "last_seen": "2026-11-16T15:30:30+00:00",
       "notified": true,
       "source": "Deniz Bonus",
       "title": "Akaryakıt harcamalarınıza 500 TL’ye varan İndirim!",
@@ -5390,7 +5383,7 @@
     },
     "02fc513ebc3ed1a2b2ee": {
       "first_seen": "2026-10-24T10:44:38+00:00",
-      "last_seen": "2026-11-14T13:23:41+00:00",
+      "last_seen": "2026-11-16T15:30:30+00:00",
       "notified": true,
       "source": "Deniz Bonus",
       "title": "Otomatik Fatura Talimatlarınıza 600 TL’ye Varan Bonus!",
@@ -5406,7 +5399,7 @@
     },
     "0387bc7c5526bbb6c10b": {
       "first_seen": "2026-08-19T06:58:02+00:00",
-      "last_seen": "2026-11-15T13:52:05+00:00",
+      "last_seen": "2026-11-16T15:30:30+00:00",
       "notified": false,
       "source": "Enpara.com",
       "title": "Birikim hesabınıza +%2,00 ek faiz oranı!",
@@ -5454,7 +5447,7 @@
     },
     "03ed7ea890e448ae5bab": {
       "first_seen": "2026-09-04T11:03:23+00:00",
-      "last_seen": "2026-11-15T13:52:05+00:00",
+      "last_seen": "2026-11-16T15:30:30+00:00",
       "notified": false,
       "source": "DenizBank",
       "title": "Ilk Kart Basvurunuza Faizsiz Taksitli Nakit Avans Firsati",
@@ -5462,7 +5455,7 @@
     },
     "0496c20fb68e94706f02": {
       "first_seen": "2026-09-04T11:03:23+00:00",
-      "last_seen": "2026-11-15T13:52:05+00:00",
+      "last_seen": "2026-11-16T15:30:30+00:00",
       "notified": true,
       "source": "DenizBank",
       "title": "Hepsipay Ile Denizbank Musterisi Olacaklara Ozel Nakit Firsati",
@@ -5526,7 +5519,7 @@
     },
     "0623671ebb94391e4e31": {
       "first_seen": "2026-10-24T10:44:38+00:00",
-      "last_seen": "2026-11-14T13:23:41+00:00",
+      "last_seen": "2026-11-16T15:30:30+00:00",
       "notified": true,
       "source": "Deniz Bonus",
       "title": "Eğitim Ödemelerinize 6 taksit!",
@@ -5558,7 +5551,7 @@
     },
     "0680cdd2fd0a97519050": {
       "first_seen": "2026-08-19T06:58:02+00:00",
-      "last_seen": "2026-11-15T13:52:05+00:00",
+      "last_seen": "2026-11-16T15:30:30+00:00",
       "notified": false,
       "source": "Akbank",
       "title": "Mobilin Akbanklısı Altın Seviye Sigorta Avantajı",
@@ -5574,7 +5567,7 @@
     },
     "06f5844a4371143e966b": {
       "first_seen": "2026-09-04T11:03:23+00:00",
-      "last_seen": "2026-11-15T13:52:05+00:00",
+      "last_seen": "2026-11-16T15:30:30+00:00",
       "notified": true,
       "source": "DenizBank",
       "title": "Istanbul Ciceklerinde Indirim Firsati",
@@ -5598,7 +5591,7 @@
     },
     "076738ff095d30ac3be9": {
       "first_seen": "2026-08-19T06:58:02+00:00",
-      "last_seen": "2026-11-15T13:52:05+00:00",
+      "last_seen": "2026-11-16T15:30:30+00:00",
       "notified": false,
       "source": "Halkbank",
       "title": "Detaylı Bilgi",
@@ -5614,7 +5607,7 @@
     },
     "07bbe25bcd92a5f9bd8a": {
       "first_seen": "2026-08-19T06:58:02+00:00",
-      "last_seen": "2026-11-15T13:52:05+00:00",
+      "last_seen": "2026-11-16T15:30:30+00:00",
       "notified": false,
       "source": "Akbank",
       "title": "Vadeli Mevduat Kampanyası",
@@ -5630,7 +5623,7 @@
     },
     "080ee0de0462b3429283": {
       "first_seen": "2026-08-19T06:58:02+00:00",
-      "last_seen": "2026-11-15T13:52:05+00:00",
+      "last_seen": "2026-11-16T15:30:30+00:00",
       "notified": false,
       "source": "Akbank",
       "title": "Akbank Mobil Akbank Mobil’e özel Lazika’da %20 indirim Son Gün 31 Aralık 2026",
@@ -5694,7 +5687,7 @@
     },
     "092652f15bd96ce7d0ce": {
       "first_seen": "2026-08-19T06:58:02+00:00",
-      "last_seen": "2026-11-15T13:52:05+00:00",
+      "last_seen": "2026-11-16T15:30:30+00:00",
       "notified": false,
       "source": "Akbank",
       "title": "Davet Et Kazan Kampanyası",
@@ -5702,7 +5695,7 @@
     },
     "0945a80f341ffef074fe": {
       "first_seen": "2026-09-01T11:31:41+00:00",
-      "last_seen": "2026-11-15T13:52:05+00:00",
+      "last_seen": "2026-11-16T15:30:30+00:00",
       "notified": true,
       "source": "İş Bankası",
       "title": "ETS’de İşPay veya İşCep Seyahatime Özel 1.000 TL’ye Varan Ek MaxiPuan Fırsatı! Bitiş Tarihi: 30.09.2026 ​İşCep'ten kampanyaya katılın; 1- 30 Eylül 2026 tarihleri arasında Bankamatik Kartı veya İş Bankası bireysel kredi k",
@@ -5718,7 +5711,7 @@
     },
     "096ab228cc2ed713af27": {
       "first_seen": "2026-10-24T10:44:38+00:00",
-      "last_seen": "2026-11-14T13:23:41+00:00",
+      "last_seen": "2026-11-16T15:30:30+00:00",
       "notified": false,
       "source": "Deniz Bonus",
       "title": "Nautica'da vade farksız 4 taksit!",
@@ -5742,7 +5735,7 @@
     },
     "0a22e0e4337291ca596f": {
       "first_seen": "2026-08-19T06:58:02+00:00",
-      "last_seen": "2026-11-15T13:52:05+00:00",
+      "last_seen": "2026-11-16T15:30:30+00:00",
       "notified": false,
       "source": "Garanti BBVA",
       "title": "Musteri Ol Dyson Kampanyasi",
@@ -5750,7 +5743,7 @@
     },
     "0a6abd824584f7afda10": {
       "first_seen": "2026-08-19T06:58:02+00:00",
-      "last_seen": "2026-11-15T13:52:05+00:00",
+      "last_seen": "2026-11-16T15:30:30+00:00",
       "notified": false,
       "source": "İş Bankası",
       "title": "İş Bankası’nı arkadaşınıza önerin hem siz hem de arkadaşınız 500 TL MaxiPuan kazanın! Bitiş Tarihi: 31.08.2026 İş Bankası’nı arkadaşınıza önerin, İşCep’ten müşteri olsun, hem siz hem de arkadaşınız 500 TL MaxiPuan kazanı",
@@ -5774,7 +5767,7 @@
     },
     "0ae7ff3f332c001a1e30": {
       "first_seen": "2026-11-12T15:02:53+00:00",
-      "last_seen": "2026-11-15T13:52:05+00:00",
+      "last_seen": "2026-11-16T15:30:30+00:00",
       "notified": true,
       "source": "İş Bankası",
       "title": "Trendyol’da İşPay’e özel oranlarla alışveriş fırsatı! Bu Kampanya Sona Ermiştir.",
@@ -5798,7 +5791,7 @@
     },
     "0b6847ce23be4b69655e": {
       "first_seen": "2026-08-19T06:58:02+00:00",
-      "last_seen": "2026-11-15T13:52:05+00:00",
+      "last_seen": "2026-11-16T15:30:30+00:00",
       "notified": false,
       "source": "Akbank",
       "title": "Oyun Platformları Kampanyası",
@@ -5814,7 +5807,7 @@
     },
     "0c7bb38a3c6a2e5462b8": {
       "first_seen": "2026-08-19T06:58:02+00:00",
-      "last_seen": "2026-11-15T13:52:05+00:00",
+      "last_seen": "2026-11-16T15:30:30+00:00",
       "notified": false,
       "source": "Akbank",
       "title": "Son Dakika Koltuğum Kampanyası",
@@ -5827,6 +5820,14 @@
       "source": "Maximum (İş Bankası Kart)",
       "title": "Yatsan'da Peşin Fiyatına 7 Taksit Fırsatı!",
       "url": "https://www.maximum.com.tr/kampanyalar/yatsan-taksit-kampanyasi"
+    },
+    "0cae24b893bb49af9375": {
+      "first_seen": "2026-11-16T15:30:30+00:00",
+      "last_seen": "2026-11-16T15:36:54+00:00",
+      "notified": true,
+      "source": "QNB Kart",
+      "title": "Elle’de 500 TL ParaPuan ve 6 taksit!",
+      "url": "https://www.qnbcard.com.tr/kampanyalar/ellede-500-tl-parapuan-ve-6-taksit-43607"
     },
     "0ccdc386ac53c2cd230f": {
       "first_seen": "2026-09-26T11:15:17+00:00",
@@ -5854,7 +5855,7 @@
     },
     "0d97a3331fb33c64ac08": {
       "first_seen": "2026-11-01T13:03:33+00:00",
-      "last_seen": "2026-11-15T13:52:05+00:00",
+      "last_seen": "2026-11-16T15:30:30+00:00",
       "notified": true,
       "source": "Akbank",
       "title": "Davet Et Kazan Akbanklı yakınlarınızı Axess’e davet edin Son Gün 30 Kasım 2026 Yeni",
@@ -5862,7 +5863,7 @@
     },
     "0da0e307631544497919": {
       "first_seen": "2026-09-04T11:03:23+00:00",
-      "last_seen": "2026-11-15T13:52:05+00:00",
+      "last_seen": "2026-11-16T15:30:30+00:00",
       "notified": true,
       "source": "DenizBank",
       "title": "Totalenergies Istasyonlarinda Yakitmatikte Indirim",
@@ -5878,7 +5879,7 @@
     },
     "0de5220631ce60c7d329": {
       "first_seen": "2026-08-19T06:58:02+00:00",
-      "last_seen": "2026-11-15T13:52:05+00:00",
+      "last_seen": "2026-11-16T15:30:30+00:00",
       "notified": false,
       "source": "Akbank",
       "title": "Kredi Kartı 10 adet iPhone 17 Pro Max Çekiliş Kampanyası Son Gün 18 Ekim 2026 Yeni",
@@ -5886,7 +5887,7 @@
     },
     "0e011ddd685040ac6624": {
       "first_seen": "2026-08-19T06:58:02+00:00",
-      "last_seen": "2026-11-15T13:52:05+00:00",
+      "last_seen": "2026-11-16T15:30:30+00:00",
       "notified": false,
       "source": "Akbank",
       "title": "%0 faiz oranıyla 100.000 TL’ye varan nakit fırsatı",
@@ -5942,7 +5943,7 @@
     },
     "0f3f1c408a9ec87caf30": {
       "first_seen": "2026-09-04T11:03:23+00:00",
-      "last_seen": "2026-11-15T13:52:05+00:00",
+      "last_seen": "2026-11-16T15:30:30+00:00",
       "notified": false,
       "source": "DenizBank",
       "title": "Enterprise Arac Kiralama",
@@ -5966,7 +5967,7 @@
     },
     "0f6c02adbd2a05358e8c": {
       "first_seen": "2026-11-02T15:25:07+00:00",
-      "last_seen": "2026-11-15T13:52:05+00:00",
+      "last_seen": "2026-11-16T15:30:30+00:00",
       "notified": true,
       "source": "Garanti BBVA",
       "title": "Musteri Ol Kasim Ayi Indirim Gunleri Kampanyasi",
@@ -6038,7 +6039,7 @@
     },
     "10c515c2c85e6684335a": {
       "first_seen": "2026-08-19T06:58:02+00:00",
-      "last_seen": "2026-11-15T13:52:05+00:00",
+      "last_seen": "2026-11-16T15:30:30+00:00",
       "notified": false,
       "source": "Garanti BBVA",
       "title": "Faizsiz Kredi Kampanyasi",
@@ -6046,7 +6047,7 @@
     },
     "113acf002dea03dfeb2a": {
       "first_seen": "2026-08-19T06:58:02+00:00",
-      "last_seen": "2026-11-15T13:52:05+00:00",
+      "last_seen": "2026-11-16T15:30:30+00:00",
       "notified": false,
       "source": "Getir Finans",
       "title": "hesap kartınla amazon prime harcamana %20 anında nakit iade son gün: 31 Ağustos 2026",
@@ -6054,7 +6055,7 @@
     },
     "1145e782eb710df785f5": {
       "first_seen": "2026-09-04T11:03:23+00:00",
-      "last_seen": "2026-11-15T13:52:05+00:00",
+      "last_seen": "2026-11-16T15:30:30+00:00",
       "notified": false,
       "source": "DenizBank",
       "title": "Mepas Hizmet Noktalarindan Tarimsal Elektrik Faturasi Odemelerine 4 Aya Varan Vade",
@@ -6182,7 +6183,7 @@
     },
     "12a56a5c87eff62ea560": {
       "first_seen": "2026-08-19T06:58:02+00:00",
-      "last_seen": "2026-11-15T13:52:05+00:00",
+      "last_seen": "2026-11-16T15:30:30+00:00",
       "notified": false,
       "source": "Getir Finans",
       "title": "otomatik fatura ödeme talimatına ₺300'ye varan getirpara kazan son gün: 30 Eylül 2026",
@@ -6190,7 +6191,7 @@
     },
     "12c2c3e6454258a56b2e": {
       "first_seen": "2026-08-19T06:58:02+00:00",
-      "last_seen": "2026-11-15T13:52:05+00:00",
+      "last_seen": "2026-11-16T15:30:30+00:00",
       "notified": false,
       "source": "Garanti BBVA",
       "title": "Musteri Ol Starbucks Kampanyasi",
@@ -6246,7 +6247,7 @@
     },
     "1451aa69d568bba703f7": {
       "first_seen": "2026-09-04T11:03:23+00:00",
-      "last_seen": "2026-11-15T13:52:05+00:00",
+      "last_seen": "2026-11-16T15:30:30+00:00",
       "notified": false,
       "source": "DenizBank",
       "title": "Acik Bankacilik Ile Eft Havale Ucreti Yok",
@@ -6294,7 +6295,7 @@
     },
     "155c86049e79de922b5f": {
       "first_seen": "2026-08-19T06:58:02+00:00",
-      "last_seen": "2026-11-15T13:52:05+00:00",
+      "last_seen": "2026-11-16T15:30:30+00:00",
       "notified": false,
       "source": "Akbank",
       "title": "WinWin Kredi Kampanyası",
@@ -6302,7 +6303,7 @@
     },
     "15a4dcba9db41f2b07ba": {
       "first_seen": "2026-11-14T13:23:41+00:00",
-      "last_seen": "2026-11-15T13:52:05+00:00",
+      "last_seen": "2026-11-16T15:30:30+00:00",
       "notified": true,
       "source": "Getir Finans",
       "title": "arkadaşını getir %3,24'ten başlayan faizlerle ₺650.000 kredi fırsatı kazan! son gün: 19 Kasım 2026",
@@ -6310,7 +6311,7 @@
     },
     "15bdd36a45a914a39efb": {
       "first_seen": "2026-08-19T06:58:02+00:00",
-      "last_seen": "2026-11-15T13:52:05+00:00",
+      "last_seen": "2026-11-16T15:30:30+00:00",
       "notified": false,
       "source": "İş Bankası",
       "title": "İş’te Maaş’a Özel (2)",
@@ -6318,7 +6319,7 @@
     },
     "15c61b22f7f5092ad8b5": {
       "first_seen": "2026-08-19T06:58:02+00:00",
-      "last_seen": "2026-11-15T13:52:05+00:00",
+      "last_seen": "2026-11-16T15:30:30+00:00",
       "notified": false,
       "source": "Akbank",
       "title": "100.000 TL’ye varan 12 ay vadeli %0,99 faizli kredi",
@@ -6382,7 +6383,7 @@
     },
     "183bc14a9dd2844493a3": {
       "first_seen": "2026-08-19T06:58:02+00:00",
-      "last_seen": "2026-11-15T13:52:05+00:00",
+      "last_seen": "2026-11-16T15:30:30+00:00",
       "notified": false,
       "source": "Akbank",
       "title": "Mobilin Akbanklısı ile Nota Çiçek’te İndirim",
@@ -6438,7 +6439,7 @@
     },
     "18d2adce932f6e0bad79": {
       "first_seen": "2026-08-19T06:58:02+00:00",
-      "last_seen": "2026-11-15T13:52:05+00:00",
+      "last_seen": "2026-11-16T15:30:30+00:00",
       "notified": false,
       "source": "İş Bankası",
       "title": "İşCep Hayatım'da Evim Menüsüne Özel Kiralarsın ile Elektronik Cihaz Kiralamada %10 İndirim! Bitiş Tarihi: 31.12.2026 VR gözlüklerden telefonlara, akıllı saatlerden bebek bakım ürünlerine kadar kısa süreli ihtiyaç duyabil",
@@ -6454,7 +6455,7 @@
     },
     "193de852e8b7fb20aabf": {
       "first_seen": "2026-09-04T11:03:23+00:00",
-      "last_seen": "2026-11-15T13:52:05+00:00",
+      "last_seen": "2026-11-16T15:30:30+00:00",
       "notified": false,
       "source": "DenizBank",
       "title": "Yesil Bir Gelecek Icin",
@@ -6462,7 +6463,7 @@
     },
     "195033dee784d25b69b7": {
       "first_seen": "2026-08-19T06:58:02+00:00",
-      "last_seen": "2026-11-15T13:52:05+00:00",
+      "last_seen": "2026-11-16T15:30:30+00:00",
       "notified": false,
       "source": "İş Bankası",
       "title": "Seyahat Kampanyaları (4)",
@@ -6494,7 +6495,7 @@
     },
     "1a597478105cd602272d": {
       "first_seen": "2026-08-19T06:58:02+00:00",
-      "last_seen": "2026-11-15T13:52:05+00:00",
+      "last_seen": "2026-11-16T15:30:30+00:00",
       "notified": false,
       "source": "Akbank",
       "title": "Mobilden Akbanklı Olanlara 1 Aylık TOD Süperlig Kampanyası Son Gün 31 Ağustos 2026 Yeni",
@@ -6622,7 +6623,7 @@
     },
     "1c0cbcf4ca4d12242ce4": {
       "first_seen": "2026-11-12T15:02:53+00:00",
-      "last_seen": "2026-11-15T13:52:05+00:00",
+      "last_seen": "2026-11-16T15:30:30+00:00",
       "notified": true,
       "source": "Akbank",
       "title": "Wings Wings Çekilis Kampanyası Son Gün 17 Ocak 2027 Yeni",
@@ -6646,7 +6647,7 @@
     },
     "1cd9ac64c31b45f3e44d": {
       "first_seen": "2026-08-19T06:58:02+00:00",
-      "last_seen": "2026-11-15T13:52:05+00:00",
+      "last_seen": "2026-11-16T15:30:30+00:00",
       "notified": false,
       "source": "Akbank",
       "title": "%0 faiz oranlı Taksitli Artı Para fırsatı",
@@ -6683,6 +6684,14 @@
       "source": "Maximum (İş Bankası Kart)",
       "title": "Yatsan'da 2.000 TL MaxiPuan Fırsatı!",
       "url": "https://www.maximum.com.tr/kampanyalar/yatsanda-maxipuan-firsati"
+    },
+    "1e4d8fdd84b18d50f966": {
+      "first_seen": "2026-11-16T15:30:30+00:00",
+      "last_seen": "2026-11-16T15:36:54+00:00",
+      "notified": true,
+      "source": "QNB Kart",
+      "title": "Greyder’de 750 TL ParaPuan!",
+      "url": "https://www.qnbcard.com.tr/kampanyalar/greyderde-750-tl-parapuan-43483"
     },
     "1e5e464b0bf0a7888cd3": {
       "first_seen": "2026-08-20T06:59:31+00:00",
@@ -6750,7 +6759,7 @@
     },
     "1f3f00f865005ba693a3": {
       "first_seen": "2026-09-04T11:03:23+00:00",
-      "last_seen": "2026-11-15T13:52:05+00:00",
+      "last_seen": "2026-11-16T15:30:30+00:00",
       "notified": true,
       "source": "DenizBank",
       "title": "Nustille Saglikli Secimlere Indirim",
@@ -6766,7 +6775,7 @@
     },
     "203cdbe934eab1438eab": {
       "first_seen": "2026-08-19T06:58:02+00:00",
-      "last_seen": "2026-11-15T13:52:05+00:00",
+      "last_seen": "2026-11-16T15:30:30+00:00",
       "notified": false,
       "source": "Ziraat Bankası",
       "title": "Ziraat Mobil'den Müşterimiz Olun, Ziraat’in Avantajlarından Hemen Faydalanın Ziraat Mobil’den müşterimiz olabilir, %0 faizli 25.000 TL Taksitli Nakit Avans ve 5.000 TL Bankkart Lira kazanma fırsatından hemen yararlanabil",
@@ -6814,7 +6823,7 @@
     },
     "20ac0264ef747f7571fb": {
       "first_seen": "2026-08-19T06:58:02+00:00",
-      "last_seen": "2026-11-15T13:52:05+00:00",
+      "last_seen": "2026-11-16T15:30:30+00:00",
       "notified": false,
       "source": "İş Bankası",
       "title": "Ücretsiz Para Transferi Ayrıcalığı Bitiş Tarihi: 31.12.2026 Size özel sunduğumuz ayrıcalıklar kapsamında havale, EFT ve FAST işlemlerinizi İşCep ve İnternet Şubesi'nden adet ve tutar sınırı olmaksızın ücretsiz yapabilirs",
@@ -6822,7 +6831,7 @@
     },
     "21239c12b68f2ba63c4b": {
       "first_seen": "2026-08-19T06:58:02+00:00",
-      "last_seen": "2026-11-15T13:52:05+00:00",
+      "last_seen": "2026-11-16T15:30:30+00:00",
       "notified": false,
       "source": "Akbank",
       "title": "Mobilin Akbanklısı Tiktak Kampanyası",
@@ -6854,7 +6863,7 @@
     },
     "218464500d97c11866a0": {
       "first_seen": "2026-11-09T15:50:52+00:00",
-      "last_seen": "2026-11-15T13:52:05+00:00",
+      "last_seen": "2026-11-16T15:30:30+00:00",
       "notified": true,
       "source": "Enpara.com",
       "title": "Encard Genc Tavsiye Kampanyasi",
@@ -6894,7 +6903,7 @@
     },
     "22e2fe16c94f63efeecf": {
       "first_seen": "2026-11-02T15:25:07+00:00",
-      "last_seen": "2026-11-15T13:52:05+00:00",
+      "last_seen": "2026-11-16T15:30:30+00:00",
       "notified": true,
       "source": "World (Yapı Kredi Kart)",
       "title": "Silver Logolu Mastercardiniza Ozel Istanbul Havalimaninda Ucretsiz Buggy Hizmeti",
@@ -6910,7 +6919,7 @@
     },
     "23187ff6223640da73c5": {
       "first_seen": "2026-08-19T06:58:02+00:00",
-      "last_seen": "2026-11-15T13:52:05+00:00",
+      "last_seen": "2026-11-16T15:30:30+00:00",
       "notified": false,
       "source": "İş Bankası",
       "title": "Gıda-Market Kampanyaları (7)",
@@ -7014,7 +7023,7 @@
     },
     "24fa11d3c87c9556e5a0": {
       "first_seen": "2026-09-01T11:31:41+00:00",
-      "last_seen": "2026-11-15T13:52:05+00:00",
+      "last_seen": "2026-11-16T15:30:30+00:00",
       "notified": false,
       "source": "Getir Finans",
       "title": "hesap kartınla chatgpt veya claude harcamana anında %20 nakit iade! son gün: 30 Eylül 2026",
@@ -7038,7 +7047,7 @@
     },
     "25c79a5f7a8b235d67fe": {
       "first_seen": "2026-08-19T06:58:02+00:00",
-      "last_seen": "2026-11-15T13:52:05+00:00",
+      "last_seen": "2026-11-16T15:30:30+00:00",
       "notified": false,
       "source": "Akbank",
       "title": "Bilet.com otel indirimi Akbank Mobil’de",
@@ -7078,7 +7087,7 @@
     },
     "265bdf04411d97582e68": {
       "first_seen": "2026-08-19T06:58:02+00:00",
-      "last_seen": "2026-11-15T13:52:05+00:00",
+      "last_seen": "2026-11-16T15:30:30+00:00",
       "notified": false,
       "source": "Akbank",
       "title": "Tamamlayıcı Sağlık Sigortası Kampanyası",
@@ -7086,7 +7095,7 @@
     },
     "26643291c125d92ee226": {
       "first_seen": "2026-10-01T12:55:16+00:00",
-      "last_seen": "2026-11-15T13:52:05+00:00",
+      "last_seen": "2026-11-16T15:30:30+00:00",
       "notified": false,
       "source": "Getir Finans",
       "title": "Samsonite’ta peşin fiyatına 6 taksit son gün: 31 Aralık 2026",
@@ -7134,7 +7143,7 @@
     },
     "26f7e4ba8cbbfd2debe3": {
       "first_seen": "2026-09-04T11:03:23+00:00",
-      "last_seen": "2026-11-15T13:52:05+00:00",
+      "last_seen": "2026-11-16T15:30:30+00:00",
       "notified": false,
       "source": "DenizBank",
       "title": "Emek Yem Alimlarinda 6 Aya Varan Vade",
@@ -7174,7 +7183,7 @@
     },
     "27ef1324e58fa8924926": {
       "first_seen": "2026-09-17T11:27:11+00:00",
-      "last_seen": "2026-11-15T13:52:05+00:00",
+      "last_seen": "2026-11-16T15:30:30+00:00",
       "notified": true,
       "source": "DenizBank",
       "title": "Arkadasinizi Davet Edin Kazanin",
@@ -7342,7 +7351,7 @@
     },
     "2be4cb1dac568a3e7e3e": {
       "first_seen": "2026-08-19T06:58:02+00:00",
-      "last_seen": "2026-11-15T13:52:05+00:00",
+      "last_seen": "2026-11-16T15:30:30+00:00",
       "notified": false,
       "source": "DenizBank",
       "title": "Diğer Kampanyalar",
@@ -7374,7 +7383,7 @@
     },
     "2d895428fb81134950c6": {
       "first_seen": "2026-08-19T06:58:02+00:00",
-      "last_seen": "2026-11-15T13:52:05+00:00",
+      "last_seen": "2026-11-16T15:30:30+00:00",
       "notified": false,
       "source": "Akbank",
       "title": "Axess Chip-para Kampanyası",
@@ -7462,7 +7471,7 @@
     },
     "2f71384fb9ea69c21110": {
       "first_seen": "2026-08-19T06:58:02+00:00",
-      "last_seen": "2026-11-15T13:52:05+00:00",
+      "last_seen": "2026-11-16T15:30:30+00:00",
       "notified": false,
       "source": "Akbank",
       "title": "Akbanklı Kadınlar Platformu’nda Özel Şofor Ayrıcalığı",
@@ -7470,7 +7479,7 @@
     },
     "2fd2abf1ed2df576863f": {
       "first_seen": "2026-08-19T06:58:02+00:00",
-      "last_seen": "2026-11-15T13:52:05+00:00",
+      "last_seen": "2026-11-16T15:30:30+00:00",
       "notified": false,
       "source": "Akbank",
       "title": "Petlebi.com indirimi Akbank Mobil’de",
@@ -7542,7 +7551,7 @@
     },
     "30ea440e0b53fda8f8c6": {
       "first_seen": "2026-08-19T06:58:02+00:00",
-      "last_seen": "2026-11-15T13:52:05+00:00",
+      "last_seen": "2026-11-16T15:30:30+00:00",
       "notified": false,
       "source": "İş Bankası",
       "title": "İş Black Ayrıcalıkları (34)",
@@ -7614,7 +7623,7 @@
     },
     "31e96d74f2a1eedec270": {
       "first_seen": "2026-08-19T06:58:02+00:00",
-      "last_seen": "2026-11-15T13:52:05+00:00",
+      "last_seen": "2026-11-16T15:30:30+00:00",
       "notified": false,
       "source": "İş Bankası",
       "title": "Araç Kiralama Kampanyaları (7)",
@@ -7630,7 +7639,7 @@
     },
     "31f78baec1e6bdea9027": {
       "first_seen": "2026-10-24T10:44:38+00:00",
-      "last_seen": "2026-11-14T13:23:41+00:00",
+      "last_seen": "2026-11-16T15:30:30+00:00",
       "notified": true,
       "source": "Deniz Bonus",
       "title": "Yurt Dışı Çıkış Harcın DenizBank’tan!",
@@ -7654,7 +7663,7 @@
     },
     "3217d80aac8ddb7e3ac8": {
       "first_seen": "2026-10-24T10:44:38+00:00",
-      "last_seen": "2026-11-14T13:23:41+00:00",
+      "last_seen": "2026-11-16T15:30:30+00:00",
       "notified": false,
       "source": "Deniz Bonus",
       "title": "House of SuperStep'te vade farksız 4 taksit!",
@@ -7662,7 +7671,7 @@
     },
     "328154fff125a86b67bc": {
       "first_seen": "2026-10-15T11:15:38+00:00",
-      "last_seen": "2026-11-15T13:52:05+00:00",
+      "last_seen": "2026-11-16T15:30:30+00:00",
       "notified": true,
       "source": "Enpara.com",
       "title": "Trendyol Plus üyelik ücretiniz bizden :)",
@@ -7734,7 +7743,7 @@
     },
     "333f0b212a1781ddab9e": {
       "first_seen": "2026-08-19T06:58:02+00:00",
-      "last_seen": "2026-11-15T13:52:05+00:00",
+      "last_seen": "2026-11-16T15:30:30+00:00",
       "notified": false,
       "source": "Akbank",
       "title": "Wings Mil-Puan Kampanyası",
@@ -7742,7 +7751,7 @@
     },
     "3356fbc23d27469eea55": {
       "first_seen": "2026-10-01T12:55:16+00:00",
-      "last_seen": "2026-11-15T13:52:05+00:00",
+      "last_seen": "2026-11-16T15:30:30+00:00",
       "notified": true,
       "source": "Akbank",
       "title": "Akbank Mobil Şehre Dönüş Çekilişi Kampanyası Son Gün 15 Kasım 2026 Yeni",
@@ -7806,7 +7815,7 @@
     },
     "34ada23add15ec3229e5": {
       "first_seen": "2026-08-19T06:58:02+00:00",
-      "last_seen": "2026-11-15T13:52:05+00:00",
+      "last_seen": "2026-11-16T15:30:30+00:00",
       "notified": false,
       "source": "Enpara.com",
       "title": "​Otopark harcamalarınızın 150 TL’si bizden!",
@@ -7822,7 +7831,7 @@
     },
     "355e25377b991a16ec18": {
       "first_seen": "2026-08-19T06:58:02+00:00",
-      "last_seen": "2026-11-15T13:52:05+00:00",
+      "last_seen": "2026-11-16T15:30:30+00:00",
       "notified": false,
       "source": "Akbank",
       "title": "Mobilden Akbanklı Olanlara Emekliye Özel Fırsat Kampanyası Son Gün 31 Ağustos 2026",
@@ -7854,7 +7863,7 @@
     },
     "35adcc53bf4471248993": {
       "first_seen": "2026-08-19T06:58:02+00:00",
-      "last_seen": "2026-11-15T13:52:05+00:00",
+      "last_seen": "2026-11-16T15:30:30+00:00",
       "notified": false,
       "source": "Akbank",
       "title": "Pocket eSIM Kampanyası",
@@ -7862,7 +7871,7 @@
     },
     "35d735e0442bcb16c4c7": {
       "first_seen": "2026-08-19T06:58:02+00:00",
-      "last_seen": "2026-11-15T13:52:05+00:00",
+      "last_seen": "2026-11-16T15:30:30+00:00",
       "notified": false,
       "source": "Akbank",
       "title": "Akbank Troy Idefix Kampanyası",
@@ -7878,7 +7887,7 @@
     },
     "3634e3cc20de5f124965": {
       "first_seen": "2026-08-19T06:58:02+00:00",
-      "last_seen": "2026-11-15T13:52:05+00:00",
+      "last_seen": "2026-11-16T15:30:30+00:00",
       "notified": false,
       "source": "İş Bankası",
       "title": "Çözüm Merkezi'nde Öncelikli Hizmet Bitiş Tarihi: 31.12.2026 Çözüm Merkezi'nde öncelikli hizmet alarak işlemlerinizi hızlıca tamamlama ayrıcalığı sizinle!",
@@ -7926,7 +7935,7 @@
     },
     "36d8f6d86743e1a9b68c": {
       "first_seen": "2026-08-19T06:58:02+00:00",
-      "last_seen": "2026-11-15T13:52:05+00:00",
+      "last_seen": "2026-11-16T15:30:30+00:00",
       "notified": false,
       "source": "DenizBank",
       "title": "Çiftçilerimize Özel Kampanyalar",
@@ -7942,7 +7951,7 @@
     },
     "36ea1a769f4851e73313": {
       "first_seen": "2026-08-19T06:58:02+00:00",
-      "last_seen": "2026-11-15T13:52:05+00:00",
+      "last_seen": "2026-11-16T15:30:30+00:00",
       "notified": false,
       "source": "İş Bankası",
       "title": "Beyaz Eşya Kampanyaları (7)",
@@ -7974,7 +7983,7 @@
     },
     "374ce892afd1f6e717f5": {
       "first_seen": "2026-08-19T06:58:02+00:00",
-      "last_seen": "2026-11-15T13:52:05+00:00",
+      "last_seen": "2026-11-16T15:30:30+00:00",
       "notified": false,
       "source": "İş Bankası",
       "title": "Giyim-Aksesuar Kampanyaları (48)",
@@ -7982,7 +7991,7 @@
     },
     "3767a583e6c31280ba09": {
       "first_seen": "2026-09-24T11:34:11+00:00",
-      "last_seen": "2026-11-15T13:52:05+00:00",
+      "last_seen": "2026-11-16T15:30:30+00:00",
       "notified": true,
       "source": "Akbank",
       "title": "Sigorta Yolculuklarda yanınızdayız Son Gün 31 Aralık 2026",
@@ -8014,7 +8023,7 @@
     },
     "37cd41d216644a8458db": {
       "first_seen": "2026-09-04T11:03:23+00:00",
-      "last_seen": "2026-11-15T13:52:05+00:00",
+      "last_seen": "2026-11-16T15:30:30+00:00",
       "notified": false,
       "source": "DenizBank",
       "title": "Iz Birakanlar Girisimci Paketi",
@@ -8078,7 +8087,7 @@
     },
     "3958543e5f30fceac2c3": {
       "first_seen": "2026-09-04T11:03:23+00:00",
-      "last_seen": "2026-11-15T13:52:05+00:00",
+      "last_seen": "2026-11-16T15:30:30+00:00",
       "notified": true,
       "source": "DenizBank",
       "title": "Denizbankli Olanlara Nakit Firsati",
@@ -8094,7 +8103,7 @@
     },
     "398972b2c9e8bf7ec128": {
       "first_seen": "2026-09-01T11:31:41+00:00",
-      "last_seen": "2026-11-15T13:52:05+00:00",
+      "last_seen": "2026-11-16T15:30:30+00:00",
       "notified": true,
       "source": "Akbank",
       "title": "Akbanklı Kadınlar Akbanklı Kadınlar Platformu’na özel kırtasiye harcama indirimi Son Gün 31 Aralık 2026",
@@ -8102,7 +8111,7 @@
     },
     "3a669995ba5fe8c5d446": {
       "first_seen": "2026-08-19T06:58:02+00:00",
-      "last_seen": "2026-11-15T13:52:05+00:00",
+      "last_seen": "2026-11-16T15:30:30+00:00",
       "notified": false,
       "source": "Akbank",
       "title": "Artı Para İşsizlik Sigortası Kampanyası",
@@ -8166,7 +8175,7 @@
     },
     "3b835dc1efd9ec69c996": {
       "first_seen": "2026-08-19T06:58:02+00:00",
-      "last_seen": "2026-11-15T13:52:05+00:00",
+      "last_seen": "2026-11-16T15:30:30+00:00",
       "notified": false,
       "source": "Halkbank",
       "title": "Detaylı Bilgi",
@@ -8198,7 +8207,7 @@
     },
     "3c6c7c451b4beb4f7854": {
       "first_seen": "2026-08-19T06:58:02+00:00",
-      "last_seen": "2026-11-15T13:52:05+00:00",
+      "last_seen": "2026-11-16T15:30:30+00:00",
       "notified": false,
       "source": "Akbank",
       "title": "Mobilin Akbanklısı ile Bambu Çiçek’te İndirim Kampanyası",
@@ -8222,7 +8231,7 @@
     },
     "3cb2d77dab4158b50803": {
       "first_seen": "2026-10-16T11:10:00+00:00",
-      "last_seen": "2026-11-15T13:52:05+00:00",
+      "last_seen": "2026-11-16T15:30:30+00:00",
       "notified": true,
       "source": "Akbank",
       "title": "Sigorta Sağlığınızı güvence altına almak için Akbank yanınızda Son Gün 30 Kasım 2026",
@@ -8246,7 +8255,7 @@
     },
     "3cf70496a290067a04cd": {
       "first_seen": "2026-08-19T06:58:02+00:00",
-      "last_seen": "2026-11-15T13:52:05+00:00",
+      "last_seen": "2026-11-16T15:30:30+00:00",
       "notified": false,
       "source": "Halkbank",
       "title": "Detaylı Bilgi",
@@ -8286,7 +8295,7 @@
     },
     "3d8828f46b27e4ebcf5f": {
       "first_seen": "2026-09-04T11:03:23+00:00",
-      "last_seen": "2026-11-15T13:52:05+00:00",
+      "last_seen": "2026-11-16T15:30:30+00:00",
       "notified": false,
       "source": "DenizBank",
       "title": "Petrol Ofisi Bayilerinden Akaryakit Alimlariniza 5 Aya Varan Vade Avantaji",
@@ -8302,7 +8311,7 @@
     },
     "3dab5317bbdafd387069": {
       "first_seen": "2026-10-24T10:44:38+00:00",
-      "last_seen": "2026-11-14T13:23:41+00:00",
+      "last_seen": "2026-11-16T15:30:30+00:00",
       "notified": true,
       "source": "Deniz Bonus",
       "title": "Restoran Ödemelerinize 400 TL’ye Varan İndirim!",
@@ -8350,7 +8359,7 @@
     },
     "3f99e8abdb70abb5040b": {
       "first_seen": "2026-09-04T11:03:23+00:00",
-      "last_seen": "2026-11-15T13:52:05+00:00",
+      "last_seen": "2026-11-16T15:30:30+00:00",
       "notified": false,
       "source": "DenizBank",
       "title": "Ofis Yem Alimlarinda 4 Aya Varan Vade",
@@ -8438,7 +8447,7 @@
     },
     "415343da2ec947985ab8": {
       "first_seen": "2026-08-19T06:58:02+00:00",
-      "last_seen": "2026-11-15T13:52:05+00:00",
+      "last_seen": "2026-11-16T15:30:30+00:00",
       "notified": false,
       "source": "İş Bankası",
       "title": "Maximum",
@@ -8446,7 +8455,7 @@
     },
     "415a05fc18d0d0806c5d": {
       "first_seen": "2026-08-19T06:58:02+00:00",
-      "last_seen": "2026-11-15T13:52:05+00:00",
+      "last_seen": "2026-11-16T15:30:30+00:00",
       "notified": false,
       "source": "Enpara.com",
       "title": "“Öğrenci” paketi üyelik ücretiniz + 500 TL bizden!",
@@ -8502,7 +8511,7 @@
     },
     "423b396e481e4c72de9e": {
       "first_seen": "2026-08-19T06:58:02+00:00",
-      "last_seen": "2026-11-15T13:52:05+00:00",
+      "last_seen": "2026-11-16T15:30:30+00:00",
       "notified": false,
       "source": "Akbank",
       "title": "Trumore Kampanyası",
@@ -8510,7 +8519,7 @@
     },
     "429e4ae2724841ef1030": {
       "first_seen": "2026-08-19T06:58:02+00:00",
-      "last_seen": "2026-11-15T13:52:05+00:00",
+      "last_seen": "2026-11-16T15:30:30+00:00",
       "notified": false,
       "source": "Akbank",
       "title": "Hediye Fon Kampanyası",
@@ -8534,7 +8543,7 @@
     },
     "43e14b248eee5277b3e1": {
       "first_seen": "2026-08-19T06:58:02+00:00",
-      "last_seen": "2026-11-15T13:52:05+00:00",
+      "last_seen": "2026-11-16T15:30:30+00:00",
       "notified": false,
       "source": "Akbank",
       "title": "Mobilin Akbanklısı ile Yemeksepeti’nde Avantajlısınız",
@@ -8590,7 +8599,7 @@
     },
     "44e64c18717c6754c485": {
       "first_seen": "2026-08-19T06:58:02+00:00",
-      "last_seen": "2026-11-15T13:52:05+00:00",
+      "last_seen": "2026-11-16T15:30:30+00:00",
       "notified": false,
       "source": "İş Bankası",
       "title": "İşCep Kampanyaları (11)",
@@ -8606,7 +8615,7 @@
     },
     "44f809286408d07b433e": {
       "first_seen": "2026-11-05T14:39:49+00:00",
-      "last_seen": "2026-11-15T13:52:05+00:00",
+      "last_seen": "2026-11-16T15:30:30+00:00",
       "notified": true,
       "source": "İş Bankası",
       "title": "Size özel faiz oranlarıyla Anında Kredi fırsatını kaçırmayın! Bu Kampanya Sona Ermiştir.",
@@ -8630,7 +8639,7 @@
     },
     "45b9c4e7136cde4ebc82": {
       "first_seen": "2026-08-19T06:58:02+00:00",
-      "last_seen": "2026-11-15T13:52:05+00:00",
+      "last_seen": "2026-11-16T15:30:30+00:00",
       "notified": false,
       "source": "Akbank",
       "title": "Akbanklı Kadınlar Platformu’na Özel Acıbadem Life Fırsatları",
@@ -8774,7 +8783,7 @@
     },
     "48ecfd96736b7a112db4": {
       "first_seen": "2026-08-19T06:58:02+00:00",
-      "last_seen": "2026-11-15T13:52:05+00:00",
+      "last_seen": "2026-11-16T15:30:30+00:00",
       "notified": false,
       "source": "Akbank",
       "title": "Hepsipay İhtiyaç Kredisi Kampanyası",
@@ -8806,7 +8815,7 @@
     },
     "4960ed9d8947e2889721": {
       "first_seen": "2026-11-02T15:25:07+00:00",
-      "last_seen": "2026-11-15T13:52:05+00:00",
+      "last_seen": "2026-11-16T15:30:30+00:00",
       "notified": true,
       "source": "Garanti BBVA",
       "title": "Musteri Ol Cekilis Kampanyasi",
@@ -8814,7 +8823,7 @@
     },
     "496fd5a585fba67da2aa": {
       "first_seen": "2026-08-19T06:58:02+00:00",
-      "last_seen": "2026-11-15T13:52:05+00:00",
+      "last_seen": "2026-11-16T15:30:30+00:00",
       "notified": false,
       "source": "Garanti BBVA",
       "title": "Emeklilik Kampanyasi",
@@ -8886,7 +8895,7 @@
     },
     "4aa049fab93c6da39b23": {
       "first_seen": "2026-08-19T06:58:02+00:00",
-      "last_seen": "2026-11-15T13:52:05+00:00",
+      "last_seen": "2026-11-16T15:30:30+00:00",
       "notified": false,
       "source": "Akbank",
       "title": "Mobilin Akbanklısı Nine West",
@@ -8950,7 +8959,7 @@
     },
     "4c061903061697557df5": {
       "first_seen": "2026-11-02T15:25:07+00:00",
-      "last_seen": "2026-11-14T13:23:41+00:00",
+      "last_seen": "2026-11-16T15:30:30+00:00",
       "notified": true,
       "source": "Deniz Bonus",
       "title": "Seyahat Harcamalarınıza 1.500 TL İndirim!",
@@ -9038,7 +9047,7 @@
     },
     "4d910a6679e004f88a5e": {
       "first_seen": "2026-08-19T06:58:02+00:00",
-      "last_seen": "2026-11-15T13:52:05+00:00",
+      "last_seen": "2026-11-16T15:30:30+00:00",
       "notified": false,
       "source": "Akbank",
       "title": "Hangikredi Kampanyası",
@@ -9060,9 +9069,17 @@
       "title": "Juzdan 4. Yaş Çekiliş Kampanyası",
       "url": "https://www.akbank.com/kampanyalar/juzdan-4-yas-cekilis-kampanyasi"
     },
+    "4e2c95b0d589537b400e": {
+      "first_seen": "2026-11-16T15:30:30+00:00",
+      "last_seen": "2026-11-16T15:36:54+00:00",
+      "notified": true,
+      "source": "QNB Kart",
+      "title": "Benetton’da 600 TL ParaPuan ve 3 taksit!",
+      "url": "https://www.qnbcard.com.tr/kampanyalar/benettonda-600-tl-parapuan-ve-3-taksit-43703"
+    },
     "4e46be3532a6c81a6655": {
       "first_seen": "2026-09-04T11:03:23+00:00",
-      "last_seen": "2026-11-15T13:52:05+00:00",
+      "last_seen": "2026-11-16T15:30:30+00:00",
       "notified": false,
       "source": "DenizBank",
       "title": "1 Yil Boyunca Ucretsiz Efthavale Ayricaligi",
@@ -9078,7 +9095,7 @@
     },
     "4e790b01a731751fc4f6": {
       "first_seen": "2026-08-19T06:58:02+00:00",
-      "last_seen": "2026-11-15T13:52:05+00:00",
+      "last_seen": "2026-11-16T15:30:30+00:00",
       "notified": false,
       "source": "Akbank",
       "title": "Akbank Mobil QR İşlemleri Çekilişi Kampanyası Son Gün 28 Eylül 2026",
@@ -9086,7 +9103,7 @@
     },
     "4e794c67ef2f946f9b73": {
       "first_seen": "2026-08-19T06:58:02+00:00",
-      "last_seen": "2026-11-15T13:52:05+00:00",
+      "last_seen": "2026-11-16T15:30:30+00:00",
       "notified": false,
       "source": "Enpara.com",
       "title": "Bağlantı",
@@ -9158,7 +9175,7 @@
     },
     "4ffe0bb76016c19704ce": {
       "first_seen": "2026-11-13T14:26:51+00:00",
-      "last_seen": "2026-11-15T13:52:05+00:00",
+      "last_seen": "2026-11-16T15:30:30+00:00",
       "notified": true,
       "source": "Akbank",
       "title": "Akbank Mobil PortakalBahcem indirimi Akbank Mobil’de Son Gün 31 Ocak 2027",
@@ -9174,7 +9191,7 @@
     },
     "50ab5c825934ecbba7fa": {
       "first_seen": "2026-08-19T06:58:02+00:00",
-      "last_seen": "2026-11-15T13:52:05+00:00",
+      "last_seen": "2026-11-16T15:30:30+00:00",
       "notified": false,
       "source": "İş Bankası",
       "title": "Ücretsiz Günlük Piyasalarda Bugün Bülteni Bitiş Tarihi: 31.12.2026 İş Black müşterilerimize özel Piyasalarda Bugün Bülteni ile ekonomiye dair günlük bilgilendirmelerden haberdar olun.​",
@@ -9190,7 +9207,7 @@
     },
     "50effec99b58bddf0f03": {
       "first_seen": "2026-11-06T14:18:20+00:00",
-      "last_seen": "2026-11-15T13:52:05+00:00",
+      "last_seen": "2026-11-16T15:30:30+00:00",
       "notified": true,
       "source": "World (Yapı Kredi Kart)",
       "title": "Worldun 35 Yilina Ozel Wwwidefixcomda Ve Idefix Mobil Uygulamasinda 235 Tl Worldpuan Ustelik 6 Taksi",
@@ -9198,7 +9215,7 @@
     },
     "50f13eb3fe845d8c1884": {
       "first_seen": "2026-09-01T11:31:41+00:00",
-      "last_seen": "2026-11-15T13:52:05+00:00",
+      "last_seen": "2026-11-16T15:30:30+00:00",
       "notified": true,
       "source": "Akbank",
       "title": "Nakit Yönetimi Arabam.com ile DBS Ayrıcalığı Son Gün 31 Aralık 2026",
@@ -9278,7 +9295,7 @@
     },
     "5264b4d3f1d91eff84cf": {
       "first_seen": "2026-08-19T06:58:02+00:00",
-      "last_seen": "2026-11-15T13:52:05+00:00",
+      "last_seen": "2026-11-16T15:30:30+00:00",
       "notified": false,
       "source": "Akbank",
       "title": "Mobilin Akbanklısı Ücretsiz Havale Avantajı",
@@ -9342,7 +9359,7 @@
     },
     "53c15626e2755262c98a": {
       "first_seen": "2026-08-19T06:58:02+00:00",
-      "last_seen": "2026-11-15T13:52:05+00:00",
+      "last_seen": "2026-11-16T15:30:30+00:00",
       "notified": false,
       "source": "Akbank",
       "title": "Akbanklı Kadınlar Platformuna Özel Davet Et Kazan",
@@ -9358,7 +9375,7 @@
     },
     "53cf3c8802f4030aeb83": {
       "first_seen": "2026-10-28T12:34:18+00:00",
-      "last_seen": "2026-11-15T13:52:05+00:00",
+      "last_seen": "2026-11-16T15:30:30+00:00",
       "notified": true,
       "source": "DenizBank",
       "title": "Vitaminlercomda 15 Indirim",
@@ -9390,7 +9407,7 @@
     },
     "54dbcc4f6075dfa6695e": {
       "first_seen": "2026-09-04T11:03:23+00:00",
-      "last_seen": "2026-11-15T13:52:05+00:00",
+      "last_seen": "2026-11-16T15:30:30+00:00",
       "notified": false,
       "source": "DenizBank",
       "title": "Hop Ile Suruslerinizde Indirim Firsati",
@@ -9470,7 +9487,7 @@
     },
     "563ac8621fc4deca15a4": {
       "first_seen": "2026-08-19T06:58:02+00:00",
-      "last_seen": "2026-11-15T13:52:05+00:00",
+      "last_seen": "2026-11-16T15:30:30+00:00",
       "notified": false,
       "source": "Akbank",
       "title": "Mobilin Akbanklısı In Street",
@@ -9507,6 +9524,14 @@
       "source": "Maximum (İş Bankası Kart)",
       "title": "Maximum'dan Zara'da 300 TL İndirim!",
       "url": "https://www.maximum.com.tr/kampanyalar/zarada-indirim-firsati"
+    },
+    "56adb135818c0f68741d": {
+      "first_seen": "2026-11-16T15:30:30+00:00",
+      "last_seen": "2026-11-16T15:36:54+00:00",
+      "notified": true,
+      "source": "İş Bankası",
+      "title": "İstanbul Hilltown Küçükyalı LEGO® Store'da %20 İndirim Ayrıcalığı! Bu Kampanya Sona Ermiştir.",
+      "url": "https://www.isbank.com.tr/kampanyalar/istanbul-hilltown-kucukyali-lego-storeda-indirim-ayricaligi"
     },
     "57013953defc5f70f4f1": {
       "first_seen": "2026-09-01T11:31:41+00:00",
@@ -9558,7 +9583,7 @@
     },
     "586077acd44cce8768df": {
       "first_seen": "2026-10-01T12:55:16+00:00",
-      "last_seen": "2026-11-15T13:52:05+00:00",
+      "last_seen": "2026-11-16T15:30:30+00:00",
       "notified": false,
       "source": "Getir Finans",
       "title": "“ssplus” koduyla getirfinanslı ol, S SPORT PLUS’ı ilk ay ücretsiz izle! son gün: 31 Aralık 2026",
@@ -9566,7 +9591,7 @@
     },
     "58bedba71711dd435e81": {
       "first_seen": "2026-08-19T06:58:02+00:00",
-      "last_seen": "2026-11-15T13:52:05+00:00",
+      "last_seen": "2026-11-16T15:30:30+00:00",
       "notified": false,
       "source": "Enpara.com",
       "title": "Kahve keyfinizin 150 TL’si bizden!",
@@ -9646,7 +9671,7 @@
     },
     "59dedef6a215feb1efa4": {
       "first_seen": "2026-09-04T11:03:23+00:00",
-      "last_seen": "2026-11-15T13:52:05+00:00",
+      "last_seen": "2026-11-16T15:30:30+00:00",
       "notified": false,
       "source": "DenizBank",
       "title": "Gediz Elektrik Faturalariniza 4 Aya Varan Vade",
@@ -9670,7 +9695,7 @@
     },
     "5a3704eb3ad0bba19135": {
       "first_seen": "2026-08-19T06:58:02+00:00",
-      "last_seen": "2026-11-15T13:52:05+00:00",
+      "last_seen": "2026-11-16T15:30:30+00:00",
       "notified": false,
       "source": "Akbank",
       "title": "Kredi KOBİ'lere Özel Faizsiz Kredi Son Gün 31 Ağustos 2026",
@@ -9694,7 +9719,7 @@
     },
     "5a78203be9ed4985476e": {
       "first_seen": "2026-08-19T06:58:02+00:00",
-      "last_seen": "2026-11-15T13:52:05+00:00",
+      "last_seen": "2026-11-16T15:30:30+00:00",
       "notified": false,
       "source": "Yapı Kredi",
       "title": "Mobilden Yapı Kredili Olun",
@@ -9782,7 +9807,7 @@
     },
     "5c02e1d92274220723fb": {
       "first_seen": "2026-10-24T10:44:38+00:00",
-      "last_seen": "2026-11-14T13:23:41+00:00",
+      "last_seen": "2026-11-16T15:30:30+00:00",
       "notified": true,
       "source": "Deniz Bonus",
       "title": "Sağlık Harcamalarınıza 3 Taksit!",
@@ -9798,7 +9823,7 @@
     },
     "5c364e259b87d14ca0e0": {
       "first_seen": "2026-08-19T06:58:02+00:00",
-      "last_seen": "2026-11-15T13:52:05+00:00",
+      "last_seen": "2026-11-16T15:30:30+00:00",
       "notified": false,
       "source": "Enpara.com",
       "title": "Dizi, film, müzik keyfinizin 150 TL’si bizden!",
@@ -9806,7 +9831,7 @@
     },
     "5c5958496de2fbbb43b3": {
       "first_seen": "2026-10-03T11:30:58+00:00",
-      "last_seen": "2026-11-15T13:52:05+00:00",
+      "last_seen": "2026-11-16T15:30:30+00:00",
       "notified": true,
       "source": "Akbank",
       "title": "Üniversiteli Akbanklı Kampüs Kart’a A101 Mağazalarında 500 TL İndirim Son Gün 31 Ekim 2026",
@@ -9814,7 +9839,7 @@
     },
     "5c8ec3f0fe2dd75ee247": {
       "first_seen": "2026-09-04T11:03:23+00:00",
-      "last_seen": "2026-11-15T13:52:05+00:00",
+      "last_seen": "2026-11-16T15:30:30+00:00",
       "notified": false,
       "source": "DenizBank",
       "title": "Kahhvecomda Indirim Firsati",
@@ -9854,7 +9879,7 @@
     },
     "5d65f0a52fb298d7dbee": {
       "first_seen": "2026-08-19T06:58:02+00:00",
-      "last_seen": "2026-11-15T13:52:05+00:00",
+      "last_seen": "2026-11-16T15:30:30+00:00",
       "notified": false,
       "source": "Akbank",
       "title": "Hisse Senedi Kampanyası",
@@ -9870,7 +9895,7 @@
     },
     "5dc82037bddc32273f68": {
       "first_seen": "2026-10-09T13:00:31+00:00",
-      "last_seen": "2026-11-15T13:52:05+00:00",
+      "last_seen": "2026-11-16T15:30:30+00:00",
       "notified": true,
       "source": "Akbank",
       "title": "Akbanklı Kadınlar Akbanklı Kadınlar’a Özel Kiralık Kasalarda %50 İndirim Son Gün 31 Aralık 2026",
@@ -9886,7 +9911,7 @@
     },
     "5e15afe28ab1a54224a5": {
       "first_seen": "2026-09-04T11:03:23+00:00",
-      "last_seen": "2026-11-15T13:52:05+00:00",
+      "last_seen": "2026-11-16T15:30:30+00:00",
       "notified": true,
       "source": "DenizBank",
       "title": "Ofixten Aninda Indirim",
@@ -9918,7 +9943,7 @@
     },
     "5e9a92780c130f5b2114": {
       "first_seen": "2026-09-11T11:06:03+00:00",
-      "last_seen": "2026-11-15T13:52:05+00:00",
+      "last_seen": "2026-11-16T15:30:30+00:00",
       "notified": true,
       "source": "Akbank",
       "title": "Mobilin Akbanklısı İspark Kampanyası",
@@ -9942,7 +9967,7 @@
     },
     "5f3f40a1c5ebb834d024": {
       "first_seen": "2026-11-12T15:02:53+00:00",
-      "last_seen": "2026-11-15T13:52:05+00:00",
+      "last_seen": "2026-11-16T15:30:30+00:00",
       "notified": true,
       "source": "Akbank",
       "title": "Axess Axess Çekiliş Kampanyası Son Gün 17 Ocak 2027 Yeni",
@@ -9982,7 +10007,7 @@
     },
     "60446d232ad83c8dc66e": {
       "first_seen": "2026-09-04T11:03:23+00:00",
-      "last_seen": "2026-11-15T13:52:05+00:00",
+      "last_seen": "2026-11-16T15:30:30+00:00",
       "notified": false,
       "source": "DenizBank",
       "title": "0 Dan Baslayan Faiz Oranlari Ile 60 Aya Varan Vade Firsati",
@@ -10030,7 +10055,7 @@
     },
     "60fdfa0dbbdfc556ab46": {
       "first_seen": "2026-11-02T15:25:07+00:00",
-      "last_seen": "2026-11-14T13:23:41+00:00",
+      "last_seen": "2026-11-16T15:30:30+00:00",
       "notified": true,
       "source": "Deniz Bonus",
       "title": "Market Alışverişlerinize 750 TL İndirim!",
@@ -10054,7 +10079,7 @@
     },
     "6176bf49c3cbfe0c03d1": {
       "first_seen": "2026-10-24T10:44:38+00:00",
-      "last_seen": "2026-11-14T13:23:41+00:00",
+      "last_seen": "2026-11-16T15:30:30+00:00",
       "notified": true,
       "source": "Deniz Bonus",
       "title": "Biten Kampanyalar",
@@ -10062,7 +10087,7 @@
     },
     "619ba87d5b3b1e49b47e": {
       "first_seen": "2026-08-19T06:58:02+00:00",
-      "last_seen": "2026-11-15T13:52:05+00:00",
+      "last_seen": "2026-11-16T15:30:30+00:00",
       "notified": false,
       "source": "Akbank",
       "title": "Mobilin Akbanklısı İhtiyaç Kredisinde Faiz İndirimi",
@@ -10070,7 +10095,7 @@
     },
     "61a91c4d6183abc2b84c": {
       "first_seen": "2026-11-01T13:03:33+00:00",
-      "last_seen": "2026-11-15T13:52:05+00:00",
+      "last_seen": "2026-11-16T15:30:30+00:00",
       "notified": true,
       "source": "Akbank",
       "title": "Davet Et Kazan Yakınlarınızı Akbanklı olmaya ve Axess’e davet edin Son Gün 30 Kasım 2026 Yeni",
@@ -10094,7 +10119,7 @@
     },
     "61d98becbce03bd9e500": {
       "first_seen": "2026-09-04T11:03:23+00:00",
-      "last_seen": "2026-11-15T13:52:05+00:00",
+      "last_seen": "2026-11-16T15:30:30+00:00",
       "notified": false,
       "source": "DenizBank",
       "title": "Akplas Ekipman Alimlarinda 5 Ay Vade",
@@ -10134,7 +10159,7 @@
     },
     "62e639e13a86a6bd90ce": {
       "first_seen": "2026-08-19T06:58:02+00:00",
-      "last_seen": "2026-11-15T13:52:05+00:00",
+      "last_seen": "2026-11-16T15:30:30+00:00",
       "notified": false,
       "source": "İş Bankası",
       "title": "Bireysel Kredi Kampanyaları (2)",
@@ -10166,7 +10191,7 @@
     },
     "64216345f35e7715a7aa": {
       "first_seen": "2026-08-19T06:58:02+00:00",
-      "last_seen": "2026-11-15T13:52:05+00:00",
+      "last_seen": "2026-11-16T15:30:30+00:00",
       "notified": false,
       "source": "Enpara.com",
       "title": "Uber yolculuklarınızın 200 TL’si bizden!",
@@ -10182,7 +10207,7 @@
     },
     "64335b45ec9a0897dcb4": {
       "first_seen": "2026-09-01T11:31:41+00:00",
-      "last_seen": "2026-11-15T13:52:05+00:00",
+      "last_seen": "2026-11-16T15:30:30+00:00",
       "notified": true,
       "source": "İş Bankası",
       "title": "ETS'deki seçili otellerde 2026 yaz dönemi için yapacağınız rezervasyonlarınızda anında %8'e varan ek indirim kazanın! Bitiş Tarihi: 30.09.2026 ETS’de 2026 erken rezervasyon fırsatları başladı! Maximum Kart’ınız ile ETS'd",
@@ -10190,7 +10215,7 @@
     },
     "645b9ca2d3947b1fd480": {
       "first_seen": "2026-08-19T06:58:02+00:00",
-      "last_seen": "2026-11-15T13:52:05+00:00",
+      "last_seen": "2026-11-16T15:30:30+00:00",
       "notified": false,
       "source": "Akbank",
       "title": "Mobilin Akbanklısı ile Ücretsiz YouTube Üyeliği",
@@ -10206,7 +10231,7 @@
     },
     "64905126e239a5868e2e": {
       "first_seen": "2026-08-19T06:58:02+00:00",
-      "last_seen": "2026-11-15T13:52:05+00:00",
+      "last_seen": "2026-11-16T15:30:30+00:00",
       "notified": false,
       "source": "Akbank",
       "title": "Akbanklı Kadınlar Platformu’na Özel Ödüllü Esnek Birikim Talimatına Chip-para",
@@ -10214,7 +10239,7 @@
     },
     "64a162b861949248cdc0": {
       "first_seen": "2026-09-11T11:06:03+00:00",
-      "last_seen": "2026-11-15T13:52:05+00:00",
+      "last_seen": "2026-11-16T15:30:30+00:00",
       "notified": true,
       "source": "Enpara.com",
       "title": "Encard Genç ile yapılan harcamalarda 500 TL’ye kadar iade bizden!",
@@ -10262,7 +10287,7 @@
     },
     "6580e68071b73d25816c": {
       "first_seen": "2026-10-26T12:43:48+00:00",
-      "last_seen": "2026-11-15T13:52:05+00:00",
+      "last_seen": "2026-11-16T15:30:30+00:00",
       "notified": true,
       "source": "İş Bankası",
       "title": "İşPay Kampanyaları (3)",
@@ -10286,7 +10311,7 @@
     },
     "65b3d3feb08ae4465bee": {
       "first_seen": "2026-10-24T10:44:38+00:00",
-      "last_seen": "2026-11-14T13:23:41+00:00",
+      "last_seen": "2026-11-16T15:30:30+00:00",
       "notified": false,
       "source": "Deniz Bonus",
       "title": "FashFed'de vade farksız 4 taksit!",
@@ -10302,7 +10327,7 @@
     },
     "6633aaf296074299c5e0": {
       "first_seen": "2026-09-04T11:03:23+00:00",
-      "last_seen": "2026-11-15T13:52:05+00:00",
+      "last_seen": "2026-11-16T15:30:30+00:00",
       "notified": false,
       "source": "DenizBank",
       "title": "English Homeda 15 Indirim Firsati",
@@ -10326,7 +10351,7 @@
     },
     "66915b605e8f5bb71b6d": {
       "first_seen": "2026-08-19T06:58:02+00:00",
-      "last_seen": "2026-11-15T13:52:05+00:00",
+      "last_seen": "2026-11-16T15:30:30+00:00",
       "notified": false,
       "source": "Akbank",
       "title": "Akbanklı Kadınlar Platformu’na Özel Kazanan Akbanklı",
@@ -10342,7 +10367,7 @@
     },
     "66dd909a250b465707e2": {
       "first_seen": "2026-09-04T11:03:23+00:00",
-      "last_seen": "2026-11-15T13:52:05+00:00",
+      "last_seen": "2026-11-16T15:30:30+00:00",
       "notified": true,
       "source": "DenizBank",
       "title": "Ihtiyaclari Erteletmeyen Kredi Mobildenizde",
@@ -10374,7 +10399,7 @@
     },
     "679d5d5567717360a026": {
       "first_seen": "2026-11-09T15:50:52+00:00",
-      "last_seen": "2026-11-15T13:52:05+00:00",
+      "last_seen": "2026-11-16T15:30:30+00:00",
       "notified": true,
       "source": "DenizBank",
       "title": "Sirada Yeni Yilda Kazanmak Var",
@@ -10414,7 +10439,7 @@
     },
     "6978f63d6329c6a10a59": {
       "first_seen": "2026-08-19T06:58:02+00:00",
-      "last_seen": "2026-11-15T13:52:05+00:00",
+      "last_seen": "2026-11-16T15:30:30+00:00",
       "notified": false,
       "source": "Akbank",
       "title": "Axess Öğrenci Kartı Kampanyası",
@@ -10446,7 +10471,7 @@
     },
     "6a898347e2881149ece1": {
       "first_seen": "2026-10-05T14:20:04+00:00",
-      "last_seen": "2026-11-15T13:52:05+00:00",
+      "last_seen": "2026-11-16T15:30:30+00:00",
       "notified": true,
       "source": "DenizBank",
       "title": "Ticari Tasit Kredisi Ureticilerin Yaninda",
@@ -10468,6 +10493,14 @@
       "title": "Taşıt Kredisi Kampanyası",
       "url": "https://www.akbank.com/kampanyalar/tasit-kredilerine-bahari-getiren-kampanya"
     },
+    "6b97be13dbe07ca2f1dd": {
+      "first_seen": "2026-11-16T15:30:30+00:00",
+      "last_seen": "2026-11-16T15:36:54+00:00",
+      "notified": true,
+      "source": "Deniz Bonus",
+      "title": "Seçili Eğitim Kurumlarında +6 Taksit İmkanı!",
+      "url": "https://www.denizkartim.com/kampanyalar/secili-egitim-kurumlarinda-arti6-taksit-imkani"
+    },
     "6bbe0d287593c855e099": {
       "first_seen": "2026-09-05T10:24:03+00:00",
       "last_seen": "2026-09-08T11:02:30+00:00",
@@ -10478,7 +10511,7 @@
     },
     "6c0c8d8b6bad020260bb": {
       "first_seen": "2026-09-04T11:03:23+00:00",
-      "last_seen": "2026-11-15T13:52:05+00:00",
+      "last_seen": "2026-11-16T15:30:30+00:00",
       "notified": true,
       "source": "DenizBank",
       "title": "Hizli Cicekte Indirim Firsati",
@@ -10494,7 +10527,7 @@
     },
     "6c4a3a8190bc91250ecb": {
       "first_seen": "2026-11-09T15:50:52+00:00",
-      "last_seen": "2026-11-15T13:52:05+00:00",
+      "last_seen": "2026-11-16T15:30:30+00:00",
       "notified": true,
       "source": "Enpara.com",
       "title": "Çocuğunuz Encard Genç kullansın, siz avantajlı kredi ve mevduat faiz oranlarından yararlanın!",
@@ -10502,7 +10535,7 @@
     },
     "6c536c34d32f2547fc90": {
       "first_seen": "2026-08-19T06:58:02+00:00",
-      "last_seen": "2026-11-15T13:52:05+00:00",
+      "last_seen": "2026-11-16T15:30:30+00:00",
       "notified": false,
       "source": "Enpara.com",
       "title": "QNB dışı ATM’lerden 1 adet para çekme işleminizin ücreti bizden!",
@@ -10534,7 +10567,7 @@
     },
     "6cc9d26bb4bf05bbe8d3": {
       "first_seen": "2026-11-07T12:51:25+00:00",
-      "last_seen": "2026-11-15T13:52:05+00:00",
+      "last_seen": "2026-11-16T15:30:30+00:00",
       "notified": true,
       "source": "World (Yapı Kredi Kart)",
       "title": "Worldun 35 Yilina Ozel Jo Malone Londonda 1035 Tlye Varan Worldpuan Kasim 2026",
@@ -10542,7 +10575,7 @@
     },
     "6cdb11e6afd4d1e1698d": {
       "first_seen": "2026-11-02T15:25:07+00:00",
-      "last_seen": "2026-11-15T13:52:05+00:00",
+      "last_seen": "2026-11-16T15:30:30+00:00",
       "notified": true,
       "source": "Garanti BBVA",
       "title": "Cekilis Kampanyasi",
@@ -10614,7 +10647,7 @@
     },
     "6e60b0b451b05d42dfb2": {
       "first_seen": "2026-08-19T06:58:02+00:00",
-      "last_seen": "2026-11-15T13:52:05+00:00",
+      "last_seen": "2026-11-16T15:30:30+00:00",
       "notified": false,
       "source": "İş Bankası",
       "title": "Turizm Kampanyaları (7)",
@@ -10646,7 +10679,7 @@
     },
     "6eba74cd19b8a6b483cc": {
       "first_seen": "2026-08-19T06:58:02+00:00",
-      "last_seen": "2026-11-15T13:52:05+00:00",
+      "last_seen": "2026-11-16T15:30:30+00:00",
       "notified": false,
       "source": "Enpara.com",
       "title": "Uçak biletinizin 250 TL’si bizden!",
@@ -10670,7 +10703,7 @@
     },
     "6f2d0e510e1d04d5ce70": {
       "first_seen": "2026-08-19T06:58:02+00:00",
-      "last_seen": "2026-11-15T13:52:05+00:00",
+      "last_seen": "2026-11-16T15:30:30+00:00",
       "notified": false,
       "source": "Akbank",
       "title": "Kazanan Akbanklı",
@@ -10766,7 +10799,7 @@
     },
     "70ff36ff6e6292ac4d6e": {
       "first_seen": "2026-08-19T06:58:02+00:00",
-      "last_seen": "2026-11-15T13:52:05+00:00",
+      "last_seen": "2026-11-16T15:30:30+00:00",
       "notified": false,
       "source": "İş Bankası",
       "title": "Yurt İçi Uçak Biletlerinde Peşin Fiyatına 6 Aya Varan Taksit Fırsatı ETS’de! Bitiş Tarihi: 31.12.2026 01 Ocak - 31 Aralık 2026 tarihleri arasında Maximum Kart’ınız ile etstur.com üzerinden alacağınız yurt içi uçak biletl",
@@ -10822,7 +10855,7 @@
     },
     "7297ea52831ecfd33f42": {
       "first_seen": "2026-09-28T13:31:40+00:00",
-      "last_seen": "2026-11-15T13:52:05+00:00",
+      "last_seen": "2026-11-16T15:30:30+00:00",
       "notified": true,
       "source": "Akbank",
       "title": "Üniversiteli Akbanklı Genç Akbanklılara Taksitli Artı Para Kampanyası Son Gün 31 Ekim 2026",
@@ -10870,7 +10903,7 @@
     },
     "73cb8046f548fd60fbe2": {
       "first_seen": "2026-11-01T13:03:33+00:00",
-      "last_seen": "2026-11-15T13:52:05+00:00",
+      "last_seen": "2026-11-16T15:30:30+00:00",
       "notified": true,
       "source": "Akbank",
       "title": "Davet Et Kazan Akbanklı yakınlarını otomatik fatura talimatına davet et Son Gün 30 Kasım 2026 Yeni",
@@ -10878,7 +10911,7 @@
     },
     "745c56fe6756a6c3fc5c": {
       "first_seen": "2026-08-19T06:58:02+00:00",
-      "last_seen": "2026-11-15T13:52:05+00:00",
+      "last_seen": "2026-11-16T15:30:30+00:00",
       "notified": false,
       "source": "Akbank",
       "title": "DHL eCommerce Kampanyası",
@@ -10886,7 +10919,7 @@
     },
     "747bf6c34c2752611612": {
       "first_seen": "2026-08-19T06:58:02+00:00",
-      "last_seen": "2026-11-15T13:52:05+00:00",
+      "last_seen": "2026-11-16T15:30:30+00:00",
       "notified": false,
       "source": "İş Bankası",
       "title": "Dekorasyon-Mobilya Kampanyaları (3)",
@@ -10894,7 +10927,7 @@
     },
     "74cc917755aa03f345ec": {
       "first_seen": "2026-09-04T11:03:23+00:00",
-      "last_seen": "2026-11-15T13:52:05+00:00",
+      "last_seen": "2026-11-16T15:30:30+00:00",
       "notified": true,
       "source": "DenizBank",
       "title": "Yeni Ciftcilerimize 25000 Tl Faizsiz Nakit Denizde",
@@ -10926,7 +10959,7 @@
     },
     "75fc832b873c94ffcd9d": {
       "first_seen": "2026-08-19T06:58:02+00:00",
-      "last_seen": "2026-11-15T13:52:05+00:00",
+      "last_seen": "2026-11-16T15:30:30+00:00",
       "notified": false,
       "source": "QNB",
       "title": "Otomatik Fatura Ödeme Talimatı ParaPuan Kampanyası",
@@ -10966,7 +10999,7 @@
     },
     "76c65dc3e41544a02ce2": {
       "first_seen": "2026-08-19T06:58:02+00:00",
-      "last_seen": "2026-11-15T13:52:05+00:00",
+      "last_seen": "2026-11-16T15:30:30+00:00",
       "notified": false,
       "source": "Enpara.com",
       "title": "Tavsiyeler sizden, 1.000 TL ödül bizden :)",
@@ -10982,7 +11015,7 @@
     },
     "7718c24f2e43d8117256": {
       "first_seen": "2026-08-19T06:58:02+00:00",
-      "last_seen": "2026-11-15T13:52:05+00:00",
+      "last_seen": "2026-11-16T15:30:30+00:00",
       "notified": false,
       "source": "Akbank",
       "title": "Davet Et Kazan",
@@ -10990,7 +11023,7 @@
     },
     "772c0b8d6c34adcb089f": {
       "first_seen": "2026-08-19T06:58:02+00:00",
-      "last_seen": "2026-11-15T13:52:05+00:00",
+      "last_seen": "2026-11-16T15:30:30+00:00",
       "notified": false,
       "source": "Akbank",
       "title": "Vadeli Mevduat Tanışma Kampanyası",
@@ -11038,7 +11071,7 @@
     },
     "78261ec1a651566428f2": {
       "first_seen": "2026-08-19T06:58:02+00:00",
-      "last_seen": "2026-11-15T13:52:05+00:00",
+      "last_seen": "2026-11-16T15:30:30+00:00",
       "notified": false,
       "source": "Akbank",
       "title": "Akbanklı Kadınlar Platformu’na Özel Kendine Özel Zaman Paketi",
@@ -11070,7 +11103,7 @@
     },
     "786b824bfd3058fa83df": {
       "first_seen": "2026-08-19T06:58:02+00:00",
-      "last_seen": "2026-11-15T13:52:05+00:00",
+      "last_seen": "2026-11-16T15:30:30+00:00",
       "notified": false,
       "source": "QNB Kart",
       "title": "Biten Kampanyalar",
@@ -11198,7 +11231,7 @@
     },
     "7a28fb77848aecc56892": {
       "first_seen": "2026-08-19T06:58:02+00:00",
-      "last_seen": "2026-11-15T13:52:05+00:00",
+      "last_seen": "2026-11-16T15:30:30+00:00",
       "notified": false,
       "source": "Akbank",
       "title": "Mobilin Akbanklısı Bronz Seviye Sigorta Avantajı",
@@ -11214,7 +11247,7 @@
     },
     "7a8378282c5b64fd6e62": {
       "first_seen": "2026-11-04T14:12:24+00:00",
-      "last_seen": "2026-11-15T13:52:05+00:00",
+      "last_seen": "2026-11-16T15:30:30+00:00",
       "notified": true,
       "source": "QNB Kart",
       "title": "Seçili Yapay Zekâ Platformlarında 300 TL’ye Varan ParaPuan!",
@@ -11246,7 +11279,7 @@
     },
     "7bb924f52c3add811f8c": {
       "first_seen": "2026-08-19T06:58:02+00:00",
-      "last_seen": "2026-11-15T13:52:05+00:00",
+      "last_seen": "2026-11-16T15:30:30+00:00",
       "notified": false,
       "source": "İş Bankası",
       "title": "Eğitim-Kırtasiye Kampanyaları (7)",
@@ -11262,7 +11295,7 @@
     },
     "7bfd70249a78afd17c1f": {
       "first_seen": "2026-08-19T06:58:02+00:00",
-      "last_seen": "2026-11-15T13:52:05+00:00",
+      "last_seen": "2026-11-16T15:30:30+00:00",
       "notified": false,
       "source": "Halkbank",
       "title": "Detaylı Bilgi",
@@ -11270,7 +11303,7 @@
     },
     "7c10c1ddac65ab80e0a0": {
       "first_seen": "2026-10-24T10:44:38+00:00",
-      "last_seen": "2026-11-14T13:23:41+00:00",
+      "last_seen": "2026-11-16T15:30:30+00:00",
       "notified": false,
       "source": "Deniz Bonus",
       "title": "Lacoste'ta vade farksız 4 taksit!",
@@ -11302,7 +11335,7 @@
     },
     "7c397039e087eda48788": {
       "first_seen": "2026-09-01T11:31:41+00:00",
-      "last_seen": "2026-11-15T13:52:05+00:00",
+      "last_seen": "2026-11-16T15:30:30+00:00",
       "notified": true,
       "source": "Akbank",
       "title": "Hastalıkta sağlıkta Akbank yanınızda. Son Gün 31 Ekim 2026 Yeni",
@@ -11318,7 +11351,7 @@
     },
     "7c4eb8b1eb71752044c6": {
       "first_seen": "2026-11-12T15:02:53+00:00",
-      "last_seen": "2026-11-15T13:52:05+00:00",
+      "last_seen": "2026-11-16T15:30:30+00:00",
       "notified": true,
       "source": "Akbank",
       "title": "Juzdan iPhone Duo Çekilişi Son Gün 17 Ocak 2027",
@@ -11326,7 +11359,7 @@
     },
     "7c69112acc65ab6345da": {
       "first_seen": "2026-08-19T06:58:02+00:00",
-      "last_seen": "2026-11-15T13:52:05+00:00",
+      "last_seen": "2026-11-16T15:30:30+00:00",
       "notified": false,
       "source": "Akbank",
       "title": "Akbanklı Kadınlar Platformu’na Özel Beije Askıda Ped Kampanyası",
@@ -11342,7 +11375,7 @@
     },
     "7cab5eb05c2a449bbc99": {
       "first_seen": "2026-11-01T13:03:33+00:00",
-      "last_seen": "2026-11-15T13:52:05+00:00",
+      "last_seen": "2026-11-16T15:30:30+00:00",
       "notified": true,
       "source": "DenizBank",
       "title": "Pro Yem Bayilerinde Yem Alimlarinda 6 Aya Varan Vade",
@@ -11358,7 +11391,7 @@
     },
     "7ce138a50bbfd6e25ede": {
       "first_seen": "2026-11-09T15:50:52+00:00",
-      "last_seen": "2026-11-15T13:52:05+00:00",
+      "last_seen": "2026-11-16T15:30:30+00:00",
       "notified": true,
       "source": "Akbank",
       "title": "Akbank Mobil'de Çekiliş Kampanyası",
@@ -11366,7 +11399,7 @@
     },
     "7d0834de6eef2fcc65b8": {
       "first_seen": "2026-08-23T06:55:08+00:00",
-      "last_seen": "2026-11-15T13:52:05+00:00",
+      "last_seen": "2026-11-16T15:30:30+00:00",
       "notified": true,
       "source": "Akbank",
       "title": "Business Plus Havalimanı Ayrıcalıkları Son Gün 31 Aralık 2026 Yeni",
@@ -11398,7 +11431,7 @@
     },
     "7d8484c1af1047a87fac": {
       "first_seen": "2026-08-19T06:58:02+00:00",
-      "last_seen": "2026-11-15T13:52:05+00:00",
+      "last_seen": "2026-11-16T15:30:30+00:00",
       "notified": false,
       "source": "Akbank",
       "title": "Kazandıran Harçlık Hesap",
@@ -11446,7 +11479,7 @@
     },
     "7df8f623fc0ba74a267d": {
       "first_seen": "2026-08-19T06:58:02+00:00",
-      "last_seen": "2026-11-15T13:52:05+00:00",
+      "last_seen": "2026-11-16T15:30:30+00:00",
       "notified": false,
       "source": "Akbank",
       "title": "Cihangir Yoga Kampanyası",
@@ -11470,7 +11503,7 @@
     },
     "7e647591f21adb8353f5": {
       "first_seen": "2026-10-24T10:44:38+00:00",
-      "last_seen": "2026-11-14T13:23:41+00:00",
+      "last_seen": "2026-11-16T15:30:30+00:00",
       "notified": false,
       "source": "Deniz Bonus",
       "title": "HeartBeat'te vade farksız 4 taksit!",
@@ -11478,7 +11511,7 @@
     },
     "7e64923c64c98d358c6a": {
       "first_seen": "2026-08-19T06:58:02+00:00",
-      "last_seen": "2026-11-15T13:52:05+00:00",
+      "last_seen": "2026-11-16T15:30:30+00:00",
       "notified": false,
       "source": "Akbank",
       "title": "Bilet.com İndirim Kampanyası",
@@ -11494,7 +11527,7 @@
     },
     "7f08077188041e7534ac": {
       "first_seen": "2026-08-19T06:58:02+00:00",
-      "last_seen": "2026-11-15T13:52:05+00:00",
+      "last_seen": "2026-11-16T15:30:30+00:00",
       "notified": false,
       "source": "İş Bankası",
       "title": "Size Özel Kişisel Bankacınız Bitiş Tarihi: 31.12.2026 Tüm bankacılık işlemleriniz ve yatırım hizmetlerinizle ilgili konularda size özel kişisel Bankacınız yardımcı olacaktır.",
@@ -11518,7 +11551,7 @@
     },
     "7f2f8c2489417f44ced0": {
       "first_seen": "2026-08-19T06:58:02+00:00",
-      "last_seen": "2026-11-15T13:52:05+00:00",
+      "last_seen": "2026-11-16T15:30:30+00:00",
       "notified": false,
       "source": "DenizBank",
       "title": "Yeni Müşterilere Faizsiz 100.000 TL’ye Varan Nakit!",
@@ -11580,9 +11613,17 @@
       "title": "Bankomat Kart ile giyim ve kozmetik alışverişlerinize 450 TL Bankomat Para!",
       "url": "https://www.vakifkart.com.tr/kampanyalar/bankomat-kart-ile-giyim-ve-kozmetik-alisverislerinize-450-tl-bankomat-para-40939"
     },
+    "8086aa44aa196a156b42": {
+      "first_seen": "2026-11-16T15:30:30+00:00",
+      "last_seen": "2026-11-16T15:36:54+00:00",
+      "notified": true,
+      "source": "İş Bankası",
+      "title": "Taksitlio alışverişlerinizde İşPay avantajı! Bu Kampanya Sona Ermiştir.",
+      "url": "https://www.isbank.com.tr/kampanyalar/taksitlio-alisverislerinizde-ispay-avantaji"
+    },
     "80a463ec0222bcba0ab4": {
       "first_seen": "2026-08-19T06:58:02+00:00",
-      "last_seen": "2026-11-15T13:52:05+00:00",
+      "last_seen": "2026-11-16T15:30:30+00:00",
       "notified": false,
       "source": "Ziraat Bankası",
       "title": "Avantajlı Vadeli Hesap ile ödemelerinizi Bankamızdan yaptıkça mevduat hesabınıza ilave faiz kazanın. Ödemelerinizi Bankamızdan yaptıkça mevduat hesabınıza ilave faiz kazanın. Üstelik 32 günden 364 güne kadar dilediğiniz ",
@@ -11598,7 +11639,7 @@
     },
     "80c328205fbf7205f1ce": {
       "first_seen": "2026-11-02T15:25:07+00:00",
-      "last_seen": "2026-11-14T13:23:41+00:00",
+      "last_seen": "2026-11-16T15:30:30+00:00",
       "notified": false,
       "source": "Deniz Bonus",
       "title": "20.000 TL ve Üzeri Alışverişlerinize 1.000 TL, Toplamda 3.000 TL İndirim Fırsatı!",
@@ -11646,7 +11687,7 @@
     },
     "816bdf55fcd9b7dfd9a3": {
       "first_seen": "2026-11-09T15:50:52+00:00",
-      "last_seen": "2026-11-15T13:52:05+00:00",
+      "last_seen": "2026-11-16T15:30:30+00:00",
       "notified": true,
       "source": "QNB Kart",
       "title": "Trendyol'da peşin fiyatına 6 taksit!",
@@ -11702,7 +11743,7 @@
     },
     "82882ab16331c166f0dc": {
       "first_seen": "2026-11-02T15:25:07+00:00",
-      "last_seen": "2026-11-14T13:23:41+00:00",
+      "last_seen": "2026-11-16T15:30:30+00:00",
       "notified": true,
       "source": "Deniz Bonus",
       "title": "10.000 TL ve Üzeri E-Ticaret Alışverişlerinize 1.000 TL İndirim Fırsatı!",
@@ -11715,6 +11756,14 @@
       "source": "Maximum (İş Bankası Kart)",
       "title": "Ucuzabilet.com’da Peşin Fiyatına 3 Aya Varan Taksit Fırsatı!",
       "url": "https://www.maximum.com.tr/kampanyalar/ucuzabiletcomda-pesin-fiyatina-taksit-firsati"
+    },
+    "82c85d5defc006c5c17d": {
+      "first_seen": "2026-11-16T15:30:30+00:00",
+      "last_seen": "2026-11-16T15:36:54+00:00",
+      "notified": true,
+      "source": "QNB Kart",
+      "title": "Koton'da 300 TL ParaPuan ve 6 taksit!",
+      "url": "https://www.qnbcard.com.tr/kampanyalar/kotonda-300-tl-parapuan-ve-6-taksit-43583"
     },
     "8327257650a1bb3b2c4d": {
       "first_seen": "2026-08-20T06:59:31+00:00",
@@ -11766,7 +11815,7 @@
     },
     "8452c198aa210f67ad5c": {
       "first_seen": "2026-08-19T06:58:02+00:00",
-      "last_seen": "2026-11-15T13:52:05+00:00",
+      "last_seen": "2026-11-16T15:30:30+00:00",
       "notified": false,
       "source": "Enpara.com",
       "title": "Enpara Şirketim’i tavsiye edin, 50.000 TL’ye kadar ödül kazanın!",
@@ -11814,7 +11863,7 @@
     },
     "865b7ab1ca1c5d79bf8a": {
       "first_seen": "2026-10-24T10:44:38+00:00",
-      "last_seen": "2026-11-14T13:23:41+00:00",
+      "last_seen": "2026-11-16T15:30:30+00:00",
       "notified": false,
       "source": "Deniz Bonus",
       "title": "SuperStep'te vade farksız 4 taksit!",
@@ -11846,7 +11895,7 @@
     },
     "86d6f9e1b5258c503b8f": {
       "first_seen": "2026-08-19T06:58:02+00:00",
-      "last_seen": "2026-11-15T13:52:05+00:00",
+      "last_seen": "2026-11-16T15:30:30+00:00",
       "notified": false,
       "source": "DenizBank",
       "title": "İşletme Kart Kampanyaları",
@@ -11878,7 +11927,7 @@
     },
     "873fcee3bb9dcff1b789": {
       "first_seen": "2026-08-20T06:59:31+00:00",
-      "last_seen": "2026-11-15T13:52:05+00:00",
+      "last_seen": "2026-11-16T15:30:30+00:00",
       "notified": true,
       "source": "Akbank",
       "title": "Mobilden Akbanklı Olanlara Hesap.com kampanyası Son Gün 19 Eylül 2026",
@@ -11894,7 +11943,7 @@
     },
     "876e7f2536231c8308b6": {
       "first_seen": "2026-10-24T10:44:38+00:00",
-      "last_seen": "2026-11-14T13:23:41+00:00",
+      "last_seen": "2026-11-16T15:30:30+00:00",
       "notified": true,
       "source": "Deniz Bonus",
       "title": "Lee ve Wrangler'da peşin fiyatına 6 taksit!",
@@ -11902,7 +11951,7 @@
     },
     "87727af936c626992f73": {
       "first_seen": "2026-11-02T15:25:07+00:00",
-      "last_seen": "2026-11-15T13:52:05+00:00",
+      "last_seen": "2026-11-16T15:30:30+00:00",
       "notified": true,
       "source": "QNB Kart",
       "title": "Kasım Ayı E-Ticaret Kampanyası ile 3.500 TL’ye Varan ParaPuan Kazanın!",
@@ -11926,7 +11975,7 @@
     },
     "87e58583ccd5c17c3989": {
       "first_seen": "2026-08-19T06:58:02+00:00",
-      "last_seen": "2026-11-15T13:52:05+00:00",
+      "last_seen": "2026-11-16T15:30:30+00:00",
       "notified": false,
       "source": "Akbank",
       "title": "Mobilin Akbanklısı ile Çiçeksepeti’nde İndirim",
@@ -11966,7 +12015,7 @@
     },
     "88cc15058f39277a811e": {
       "first_seen": "2026-08-19T06:58:02+00:00",
-      "last_seen": "2026-11-15T13:52:05+00:00",
+      "last_seen": "2026-11-16T15:30:30+00:00",
       "notified": false,
       "source": "Akbank",
       "title": "Akbanklı Kadınlar Platformu’na Özel Online Eğitim Platform İndirimi",
@@ -12022,7 +12071,7 @@
     },
     "8a006e9e34c04220eb6c": {
       "first_seen": "2026-10-09T13:00:31+00:00",
-      "last_seen": "2026-11-15T13:52:05+00:00",
+      "last_seen": "2026-11-16T15:30:30+00:00",
       "notified": true,
       "source": "İş Bankası",
       "title": "Gelir Vergisi, Motorlu Taşıtlar Vergisi, Tapu Harç ve Emlak Vergisi Ödemelerinize Sonradan 3 Aya Varan Taksit Fırsatı! Bitiş Tarihi: 31.10.2026 Maximum Kart’ınızla 1-31 Ekim tarihleri arasında peşin olarak gerçekleştirec",
@@ -12038,7 +12087,7 @@
     },
     "8a205082b2c1a8cc63ee": {
       "first_seen": "2026-11-06T14:18:20+00:00",
-      "last_seen": "2026-11-15T13:52:05+00:00",
+      "last_seen": "2026-11-16T15:30:30+00:00",
       "notified": true,
       "source": "QNB",
       "title": "Kasim Ayi E Ticaret Kampanyasi 23069",
@@ -12046,7 +12095,7 @@
     },
     "8a3b6c1b67785b8da813": {
       "first_seen": "2026-10-24T10:44:38+00:00",
-      "last_seen": "2026-11-14T13:23:41+00:00",
+      "last_seen": "2026-11-16T15:30:30+00:00",
       "notified": false,
       "source": "Deniz Bonus",
       "title": "Galataport İstanbul Deniz Dolmuşları’nda %50 indirim!",
@@ -12070,7 +12119,7 @@
     },
     "8af795e6fe9508c4581c": {
       "first_seen": "2026-08-19T06:58:02+00:00",
-      "last_seen": "2026-11-15T13:52:05+00:00",
+      "last_seen": "2026-11-16T15:30:30+00:00",
       "notified": false,
       "source": "Akbank",
       "title": "Akbanklı Kadın Platformuna Özel BES’te İade Fırsatı",
@@ -12118,7 +12167,7 @@
     },
     "8c3859dcf1f79b10dd98": {
       "first_seen": "2026-09-11T11:06:03+00:00",
-      "last_seen": "2026-11-15T13:52:05+00:00",
+      "last_seen": "2026-11-16T15:30:30+00:00",
       "notified": true,
       "source": "Garanti BBVA",
       "title": "Musteri Ol Obilet Kampanyasi",
@@ -12142,7 +12191,7 @@
     },
     "8c699acdd27c6a89d67f": {
       "first_seen": "2026-10-01T12:55:16+00:00",
-      "last_seen": "2026-11-15T13:52:05+00:00",
+      "last_seen": "2026-11-16T15:30:30+00:00",
       "notified": true,
       "source": "DenizBank",
       "title": "Otomatik Fatura Talimatlariniza Nakit",
@@ -12158,7 +12207,7 @@
     },
     "8d1d8042ee7f3f42cc03": {
       "first_seen": "2026-08-19T06:58:02+00:00",
-      "last_seen": "2026-11-15T13:52:05+00:00",
+      "last_seen": "2026-11-16T15:30:30+00:00",
       "notified": false,
       "source": "Akbank",
       "title": "iPhone Çekiliş Kampanyası",
@@ -12166,7 +12215,7 @@
     },
     "8d660e84910aad3b8bd1": {
       "first_seen": "2026-10-24T10:44:38+00:00",
-      "last_seen": "2026-11-14T13:23:41+00:00",
+      "last_seen": "2026-11-16T15:30:30+00:00",
       "notified": false,
       "source": "Deniz Bonus",
       "title": "DERİMOD’DA 5 TAKSİT!",
@@ -12246,7 +12295,7 @@
     },
     "8f59d71d4d1b62045298": {
       "first_seen": "2026-11-02T15:25:07+00:00",
-      "last_seen": "2026-11-14T13:23:41+00:00",
+      "last_seen": "2026-11-16T15:30:30+00:00",
       "notified": true,
       "source": "Deniz Bonus",
       "title": "Giyimden Elektroniğe, Mobilyadan Seyahate Her 5.000 TL Üzeri Harcamanıza 500 TL İndirim!",
@@ -12254,7 +12303,7 @@
     },
     "8f936d26b7be78e00a8f": {
       "first_seen": "2026-08-19T06:58:02+00:00",
-      "last_seen": "2026-11-15T13:52:05+00:00",
+      "last_seen": "2026-11-16T15:30:30+00:00",
       "notified": false,
       "source": "İş Bankası",
       "title": "İş Portföy'den Uzman Desteği Bitiş Tarihi: 31.12.2026 Bankamızdaki yatırım fonu bakiyesi 1 milyon TL üzerinde olan müşteriler üç ayda bir faydalanabilmektedir.",
@@ -12286,7 +12335,7 @@
     },
     "901163af88a53fb80fd8": {
       "first_seen": "2026-08-19T06:58:02+00:00",
-      "last_seen": "2026-11-15T13:52:05+00:00",
+      "last_seen": "2026-11-16T15:30:30+00:00",
       "notified": false,
       "source": "Akbank",
       "title": "Bilet.com Kampanyası",
@@ -12302,7 +12351,7 @@
     },
     "90a92950b6e6532fb898": {
       "first_seen": "2026-08-19T06:58:02+00:00",
-      "last_seen": "2026-11-15T13:52:05+00:00",
+      "last_seen": "2026-11-16T15:30:30+00:00",
       "notified": false,
       "source": "Akbank",
       "title": "Akbanklı Kadınlar Platformu’na Özel Nahıl’da İndirim",
@@ -12342,7 +12391,7 @@
     },
     "91a116064801eceabeea": {
       "first_seen": "2026-08-19T06:58:02+00:00",
-      "last_seen": "2026-11-15T13:52:05+00:00",
+      "last_seen": "2026-11-16T15:30:30+00:00",
       "notified": false,
       "source": "Akbank",
       "title": "Akbank Mobil Genç Akbanklı QR Kampanyası Son Gün 31 Ağustos 2026",
@@ -12350,7 +12399,7 @@
     },
     "91d64c99d714b60973d7": {
       "first_seen": "2026-08-19T06:58:02+00:00",
-      "last_seen": "2026-11-15T13:52:05+00:00",
+      "last_seen": "2026-11-16T15:30:30+00:00",
       "notified": false,
       "source": "Halkbank",
       "title": "Detaylı Bilgi",
@@ -12374,7 +12423,7 @@
     },
     "9285f42f99cfad62631a": {
       "first_seen": "2026-08-19T06:58:02+00:00",
-      "last_seen": "2026-11-15T13:52:05+00:00",
+      "last_seen": "2026-11-16T15:30:30+00:00",
       "notified": false,
       "source": "Enpara.com",
       "title": "Canva üyelik ücretinizin 150 TL’si bizden!",
@@ -12390,7 +12439,7 @@
     },
     "92bc21f9b06a89c9cbaa": {
       "first_seen": "2026-08-19T06:58:02+00:00",
-      "last_seen": "2026-11-15T13:52:05+00:00",
+      "last_seen": "2026-11-16T15:30:30+00:00",
       "notified": false,
       "source": "Akbank",
       "title": "25.000 TL Taksitli Avans",
@@ -12398,7 +12447,7 @@
     },
     "93125f0d09ed93e49fed": {
       "first_seen": "2026-08-23T06:55:08+00:00",
-      "last_seen": "2026-11-15T13:52:05+00:00",
+      "last_seen": "2026-11-16T15:30:30+00:00",
       "notified": true,
       "source": "Akbank",
       "title": "Business Plus Bankacılık Ayrıcalıkları Son Gün 31 Aralık 2026 Yeni",
@@ -12414,7 +12463,7 @@
     },
     "93309bb9d9603ef94520": {
       "first_seen": "2026-08-19T06:58:02+00:00",
-      "last_seen": "2026-11-15T13:52:05+00:00",
+      "last_seen": "2026-11-16T15:30:30+00:00",
       "notified": false,
       "source": "Enpara.com",
       "title": "Vadeli TL mevduatlarınıza “İyi ki bizimlesiniz” faizi!",
@@ -12422,7 +12471,7 @@
     },
     "9337c8a323255e3b8412": {
       "first_seen": "2026-08-19T06:58:02+00:00",
-      "last_seen": "2026-11-15T13:52:05+00:00",
+      "last_seen": "2026-11-16T15:30:30+00:00",
       "notified": false,
       "source": "Akbank",
       "title": "Akbank Mobil'den İspark'ta İndirim Kampanyası",
@@ -12510,7 +12559,7 @@
     },
     "94cad99a8ea0a755c47e": {
       "first_seen": "2026-10-24T10:44:38+00:00",
-      "last_seen": "2026-11-14T13:23:41+00:00",
+      "last_seen": "2026-11-16T15:30:30+00:00",
       "notified": true,
       "source": "Deniz Bonus",
       "title": "Market Alışverişlerinize 1.200 TL’ye Varan İndirim!",
@@ -12534,7 +12583,7 @@
     },
     "9589e003569c707fcebf": {
       "first_seen": "2026-08-19T06:58:02+00:00",
-      "last_seen": "2026-11-15T13:52:05+00:00",
+      "last_seen": "2026-11-16T15:30:30+00:00",
       "notified": false,
       "source": "Akbank",
       "title": "Mobilin Akbanklısı Bronz Tefal Kampanyası",
@@ -12550,7 +12599,7 @@
     },
     "968ace55db5b964013f1": {
       "first_seen": "2026-08-19T06:58:02+00:00",
-      "last_seen": "2026-11-15T13:52:05+00:00",
+      "last_seen": "2026-11-16T15:30:30+00:00",
       "notified": false,
       "source": "Akbank",
       "title": "Mobilin Akbanklısı Pocket eSIM Kampanyası",
@@ -12566,7 +12615,7 @@
     },
     "96fcb5f4eb1270981006": {
       "first_seen": "2026-11-02T15:25:07+00:00",
-      "last_seen": "2026-11-15T13:52:05+00:00",
+      "last_seen": "2026-11-16T15:30:30+00:00",
       "notified": true,
       "source": "World (Yapı Kredi Kart)",
       "title": "Silver Logolu Mastercardiniz Ile Yurt Disindaki Otel Harcamalarinizda 10 Indirim Ayricaligi",
@@ -12614,7 +12663,7 @@
     },
     "97869b0f023724512d79": {
       "first_seen": "2026-08-19T06:58:02+00:00",
-      "last_seen": "2026-11-15T13:52:05+00:00",
+      "last_seen": "2026-11-16T15:30:30+00:00",
       "notified": false,
       "source": "Garanti BBVA",
       "title": "Musteri Ol Jolly Kampanyasi",
@@ -12622,7 +12671,7 @@
     },
     "978eb1ade2345bdd43af": {
       "first_seen": "2026-08-19T06:58:02+00:00",
-      "last_seen": "2026-11-15T13:52:05+00:00",
+      "last_seen": "2026-11-16T15:30:30+00:00",
       "notified": false,
       "source": "Akbank",
       "title": "Mobilin Akbanklısı ile Migros’ta indirim",
@@ -12686,7 +12735,7 @@
     },
     "9869406a35671b33b3b9": {
       "first_seen": "2026-08-19T06:58:02+00:00",
-      "last_seen": "2026-11-15T13:52:05+00:00",
+      "last_seen": "2026-11-16T15:30:30+00:00",
       "notified": false,
       "source": "Garanti BBVA",
       "title": "Evim Garantide Kampanyasi",
@@ -12734,7 +12783,7 @@
     },
     "996f4a6fe2eb38f5199e": {
       "first_seen": "2026-09-29T12:34:57+00:00",
-      "last_seen": "2026-11-15T13:52:05+00:00",
+      "last_seen": "2026-11-16T15:30:30+00:00",
       "notified": true,
       "source": "DenizBank",
       "title": "Kidpixide 40 Indirim Firsati",
@@ -12750,7 +12799,7 @@
     },
     "99acbf6a81dadc6839bf": {
       "first_seen": "2026-11-01T13:03:33+00:00",
-      "last_seen": "2026-11-15T13:52:05+00:00",
+      "last_seen": "2026-11-16T15:30:30+00:00",
       "notified": true,
       "source": "Akbank",
       "title": "Davet Et Kazan Yakınlarınızı Akbanklı olmaya ve otomatik fatura talimatına davet edin Son Gün 30 Kasım 2026 Yeni",
@@ -12822,7 +12871,7 @@
     },
     "9b08bc0c1e68322bc9bc": {
       "first_seen": "2026-08-19T06:58:02+00:00",
-      "last_seen": "2026-11-15T13:52:05+00:00",
+      "last_seen": "2026-11-16T15:30:30+00:00",
       "notified": false,
       "source": "Akbank",
       "title": "Üniversiteli Akbanklı Üniversiteli Akbanklılara Özel Ücretsiz Eğitim Platformu Son Gün 31 Aralık 2026",
@@ -12862,7 +12911,7 @@
     },
     "9b929bba7beb70f45f4e": {
       "first_seen": "2026-08-19T06:58:02+00:00",
-      "last_seen": "2026-11-15T13:52:05+00:00",
+      "last_seen": "2026-11-16T15:30:30+00:00",
       "notified": false,
       "source": "Akbank",
       "title": "Üniversiteli Akbanklılara özel sanal ISIC kart ilk yıl ücretsiz.",
@@ -12886,7 +12935,7 @@
     },
     "9bc488d65374825d2978": {
       "first_seen": "2026-11-06T14:18:20+00:00",
-      "last_seen": "2026-11-15T13:52:05+00:00",
+      "last_seen": "2026-11-16T15:30:30+00:00",
       "notified": true,
       "source": "Akbank",
       "title": "Mobilin Akbanklısı Mobilin Akbanklısı Petlebi Kampanyası Son Gün 31 Aralık 2026",
@@ -12988,6 +13037,14 @@
       "title": "Trendyol Kampanyasi",
       "url": "https://garantibbva.com.tr/kampanyalar/trendyol-kampanyasi"
     },
+    "9dd168b58193287bd3bb": {
+      "first_seen": "2026-11-16T15:30:30+00:00",
+      "last_seen": "2026-11-16T15:36:54+00:00",
+      "notified": true,
+      "source": "QNB Kart",
+      "title": "Yves Rocher'da 250 TL ParaPuan!",
+      "url": "https://www.qnbcard.com.tr/kampanyalar/yves-rocherda-250-tl-parapuan-43687"
+    },
     "9dd2a2c2f01992d7816f": {
       "first_seen": "2026-08-27T17:35:25+00:00",
       "last_seen": "2026-11-15T13:52:05+00:00",
@@ -13030,7 +13087,7 @@
     },
     "9ee02b91766dbf6b71ca": {
       "first_seen": "2026-08-19T06:58:02+00:00",
-      "last_seen": "2026-11-15T13:52:05+00:00",
+      "last_seen": "2026-11-16T15:30:30+00:00",
       "notified": false,
       "source": "Akbank",
       "title": "Meditopia Premium Üyelik Kampanyası",
@@ -13043,6 +13100,14 @@
       "source": "İş Bankası",
       "title": "Trendyol'da Peşin Fiyatına 6 Taksit Fırsatı! Bu Kampanya Sona Ermiştir.",
       "url": "https://www.isbank.com.tr/kampanyalar/trendyolda-taksit-firsati"
+    },
+    "9f2d7fc50024c421e8c7": {
+      "first_seen": "2026-11-16T15:30:30+00:00",
+      "last_seen": "2026-11-16T15:36:54+00:00",
+      "notified": true,
+      "source": "QNB Kart",
+      "title": "Amazon'da peşin fiyatına 12 aya varan taksit!",
+      "url": "https://www.qnbcard.com.tr/kampanyalar/amazonda-pesin-fiyatina-12-aya-varan-taksit-43725"
     },
     "9f98b7c3de21d0d55e69": {
       "first_seen": "2026-08-22T06:53:47+00:00",
@@ -13078,7 +13143,7 @@
     },
     "a0b9bcfe5bda1627a105": {
       "first_seen": "2026-11-02T15:25:07+00:00",
-      "last_seen": "2026-11-14T13:23:41+00:00",
+      "last_seen": "2026-11-16T15:30:30+00:00",
       "notified": true,
       "source": "Deniz Bonus",
       "title": "Restoran Ödemelerinize 500 TL İndirim!",
@@ -13134,7 +13199,7 @@
     },
     "a1599112f831e39f84b3": {
       "first_seen": "2026-08-19T06:58:02+00:00",
-      "last_seen": "2026-11-15T13:52:05+00:00",
+      "last_seen": "2026-11-16T15:30:30+00:00",
       "notified": false,
       "source": "Akbank",
       "title": "Mobilin Akbanklısı Çekiliş Kampanyası",
@@ -13158,7 +13223,7 @@
     },
     "a1a45fef7b49d639d0b0": {
       "first_seen": "2026-08-19T06:58:02+00:00",
-      "last_seen": "2026-11-15T13:52:05+00:00",
+      "last_seen": "2026-11-16T15:30:30+00:00",
       "notified": false,
       "source": "DenizBank",
       "title": "MobilDeniz Fırsatları",
@@ -13182,7 +13247,7 @@
     },
     "a1e97d1b13321d162690": {
       "first_seen": "2026-09-04T11:03:23+00:00",
-      "last_seen": "2026-11-15T13:52:05+00:00",
+      "last_seen": "2026-11-16T15:30:30+00:00",
       "notified": false,
       "source": "DenizBank",
       "title": "Sevimli Dostlarimiz Icin Sepette Bir Surprizimiz Var",
@@ -13198,7 +13263,7 @@
     },
     "a242dcc282e3b320fca2": {
       "first_seen": "2026-08-19T06:58:02+00:00",
-      "last_seen": "2026-11-15T13:52:05+00:00",
+      "last_seen": "2026-11-16T15:30:30+00:00",
       "notified": false,
       "source": "Akbank",
       "title": "Mobilin Akbanklısı TOD 1 Aylık Süper Lig Paketi",
@@ -13214,7 +13279,7 @@
     },
     "a33da139881b699452b2": {
       "first_seen": "2026-08-19T06:58:02+00:00",
-      "last_seen": "2026-11-15T13:52:05+00:00",
+      "last_seen": "2026-11-16T15:30:30+00:00",
       "notified": false,
       "source": "Enpara.com",
       "title": "Yurt dışı çıkış harcınızın 250 TL’si bizden!",
@@ -13246,7 +13311,7 @@
     },
     "a3d79c47bc279232a81e": {
       "first_seen": "2026-08-19T06:58:02+00:00",
-      "last_seen": "2026-11-15T13:52:05+00:00",
+      "last_seen": "2026-11-16T15:30:30+00:00",
       "notified": false,
       "source": "İş Bankası",
       "title": "Otomotiv Kampanyaları (6)",
@@ -13278,7 +13343,7 @@
     },
     "a48ad3cb6bf69f20056c": {
       "first_seen": "2026-10-01T12:55:16+00:00",
-      "last_seen": "2026-11-15T13:52:05+00:00",
+      "last_seen": "2026-11-16T15:30:30+00:00",
       "notified": false,
       "source": "Getir Finans",
       "title": "Under Armour’da peşin fiyatına 6 taksit son gün: 31 Aralık 2026",
@@ -13286,7 +13351,7 @@
     },
     "a4c0f5518b30ac17fb71": {
       "first_seen": "2026-08-19T06:58:02+00:00",
-      "last_seen": "2026-11-15T13:52:05+00:00",
+      "last_seen": "2026-11-16T15:30:30+00:00",
       "notified": false,
       "source": "Akbank",
       "title": "Kazandıran Harçlık Hesap Kampanyası",
@@ -13318,7 +13383,7 @@
     },
     "a590b61edb8f9bb9967d": {
       "first_seen": "2026-08-19T06:58:02+00:00",
-      "last_seen": "2026-11-15T13:52:05+00:00",
+      "last_seen": "2026-11-16T15:30:30+00:00",
       "notified": false,
       "source": "İş Bankası",
       "title": "Bankamatik Kartı Kampanyaları (1)",
@@ -13366,7 +13431,7 @@
     },
     "a64e34ffbcec7ca93815": {
       "first_seen": "2026-08-19T06:58:02+00:00",
-      "last_seen": "2026-11-15T13:52:05+00:00",
+      "last_seen": "2026-11-16T15:30:30+00:00",
       "notified": false,
       "source": "İş Bankası",
       "title": "Yurt İçi Bankamatik'lerden Ücretsiz Para Çekme Ayrıcalığı Bitiş Tarihi: 31.12.2026 Yurt İçi Bankamatik'lerden Ücretsiz Para Çekme",
@@ -13374,7 +13439,7 @@
     },
     "a65d4ec3aff04150d7af": {
       "first_seen": "2026-08-19T06:58:02+00:00",
-      "last_seen": "2026-11-15T13:52:05+00:00",
+      "last_seen": "2026-11-16T15:30:30+00:00",
       "notified": false,
       "source": "Akbank",
       "title": "Mobilden Akbanklı Olanlara MIGROS koduyla Akbanklı olanlara özel fırsat! Son Gün 31 Ağustos 2026",
@@ -13398,7 +13463,7 @@
     },
     "a6fcbeea968ae5f01a6e": {
       "first_seen": "2026-08-19T06:58:02+00:00",
-      "last_seen": "2026-11-15T13:52:05+00:00",
+      "last_seen": "2026-11-16T15:30:30+00:00",
       "notified": false,
       "source": "Akbank",
       "title": "Mobilin Akbanklısı Gümüş Tefal Kampanyası",
@@ -13422,7 +13487,7 @@
     },
     "a72b8950c7fa2b8bbe2f": {
       "first_seen": "2026-09-04T11:03:23+00:00",
-      "last_seen": "2026-11-15T13:52:05+00:00",
+      "last_seen": "2026-11-16T15:30:30+00:00",
       "notified": false,
       "source": "DenizBank",
       "title": "Opet Bayilerinden Akaryakit Alimlariniza 5 Aya Varan Vade Avantaji",
@@ -13430,7 +13495,7 @@
     },
     "a74762b0176ea5f9653a": {
       "first_seen": "2026-11-09T15:50:52+00:00",
-      "last_seen": "2026-11-15T13:52:05+00:00",
+      "last_seen": "2026-11-16T15:30:30+00:00",
       "notified": true,
       "source": "QNB Kart",
       "title": "Zara, Massimo Dutti, Oysho, Bershka, Pull&Bear, Stradivarius, Lefties ve Zara Home mağazalarında 1.000 TL ParaPuan!",
@@ -13470,7 +13535,7 @@
     },
     "a800c1675ee768417f8b": {
       "first_seen": "2026-08-19T06:58:02+00:00",
-      "last_seen": "2026-11-15T13:52:05+00:00",
+      "last_seen": "2026-11-16T15:30:30+00:00",
       "notified": false,
       "source": "Akbank",
       "title": "Akbanklı Kadınlar Art Studio Serisi",
@@ -13518,7 +13583,7 @@
     },
     "a8a30ebedcf81cb828f6": {
       "first_seen": "2026-08-19T06:58:02+00:00",
-      "last_seen": "2026-11-15T13:52:05+00:00",
+      "last_seen": "2026-11-16T15:30:30+00:00",
       "notified": false,
       "source": "Enpara.com",
       "title": "Chatgpt Gemini Kampanyasi",
@@ -13542,7 +13607,7 @@
     },
     "a92ede47d173be849789": {
       "first_seen": "2026-11-09T15:50:52+00:00",
-      "last_seen": "2026-11-15T13:52:05+00:00",
+      "last_seen": "2026-11-16T15:30:30+00:00",
       "notified": true,
       "source": "Garanti BBVA",
       "title": "Musteri Ol Migros Petimo Kampanyasi",
@@ -13558,7 +13623,7 @@
     },
     "a975002d41e02cadaacd": {
       "first_seen": "2026-08-19T06:58:02+00:00",
-      "last_seen": "2026-11-15T13:52:05+00:00",
+      "last_seen": "2026-11-16T15:30:30+00:00",
       "notified": false,
       "source": "Akbank",
       "title": "Akbank Mobil Tchibo Kampanyası Son Gün 31 Aralık 2026",
@@ -13574,7 +13639,7 @@
     },
     "a9a48a24c16d0dad7480": {
       "first_seen": "2026-08-19T06:58:02+00:00",
-      "last_seen": "2026-11-15T13:52:05+00:00",
+      "last_seen": "2026-11-16T15:30:30+00:00",
       "notified": false,
       "source": "Akbank",
       "title": "ZORLU PSM ile Şanslı Salı fırsatı",
@@ -13606,7 +13671,7 @@
     },
     "aa2c1789169f474c0e2f": {
       "first_seen": "2026-08-19T06:58:02+00:00",
-      "last_seen": "2026-11-15T13:52:05+00:00",
+      "last_seen": "2026-11-16T15:30:30+00:00",
       "notified": false,
       "source": "Akbank",
       "title": "Mobilin Akbanklısı TOD Haftalık Taraftar Paketi",
@@ -13638,7 +13703,7 @@
     },
     "aa8345d2c2793fe043d7": {
       "first_seen": "2026-09-04T11:03:23+00:00",
-      "last_seen": "2026-11-15T13:52:05+00:00",
+      "last_seen": "2026-11-16T15:30:30+00:00",
       "notified": false,
       "source": "DenizBank",
       "title": "Uretici Kartla Otomatik Odemelerde Ek Limit Avantaji",
@@ -13646,7 +13711,7 @@
     },
     "aaa2c4778a7da25afb2e": {
       "first_seen": "2026-11-02T15:25:07+00:00",
-      "last_seen": "2026-11-14T13:23:41+00:00",
+      "last_seen": "2026-11-16T15:30:30+00:00",
       "notified": false,
       "source": "Deniz Bonus",
       "title": "Elektrikli Araç Şarj İstasyonlarında 500 TL’ye Varan İndirim!",
@@ -13662,7 +13727,7 @@
     },
     "aaf2fc9d10cb72684bcd": {
       "first_seen": "2026-09-04T11:03:23+00:00",
-      "last_seen": "2026-11-15T13:52:05+00:00",
+      "last_seen": "2026-11-16T15:30:30+00:00",
       "notified": true,
       "source": "DenizBank",
       "title": "Heryerbitkide Indirim Firsati",
@@ -13702,7 +13767,7 @@
     },
     "ab95a942aa346125be53": {
       "first_seen": "2026-08-19T06:58:02+00:00",
-      "last_seen": "2026-11-15T13:52:05+00:00",
+      "last_seen": "2026-11-16T15:30:30+00:00",
       "notified": false,
       "source": "Enpara.com",
       "title": "Takımınızın formasını alırken 1.000 TL bizden!",
@@ -13894,7 +13959,7 @@
     },
     "b0a81df8b944cddc3ea0": {
       "first_seen": "2026-10-16T11:10:00+00:00",
-      "last_seen": "2026-11-15T13:52:05+00:00",
+      "last_seen": "2026-11-16T15:30:30+00:00",
       "notified": true,
       "source": "Akbank",
       "title": "Mobilden Akbanklı Olanlara Zorlu PSM Kampanyası Son Gün 01 Şubat 2027",
@@ -13910,7 +13975,7 @@
     },
     "b105f1c89b4d4a66c1a9": {
       "first_seen": "2026-08-19T06:58:02+00:00",
-      "last_seen": "2026-11-15T13:52:05+00:00",
+      "last_seen": "2026-11-16T15:30:30+00:00",
       "notified": false,
       "source": "Akbank",
       "title": "50.000 TL’ye varan 6 ay vadeli %0 faizli kredi",
@@ -13918,7 +13983,7 @@
     },
     "b108dbe515d660feb2f7": {
       "first_seen": "2026-08-19T06:58:02+00:00",
-      "last_seen": "2026-11-15T13:52:05+00:00",
+      "last_seen": "2026-11-16T15:30:30+00:00",
       "notified": false,
       "source": "Akbank",
       "title": "Akbanklı Kadınlar Platformu’na Özel Artı Para",
@@ -13942,7 +14007,7 @@
     },
     "b15d0522fd882240af87": {
       "first_seen": "2026-09-04T11:03:23+00:00",
-      "last_seen": "2026-11-15T13:52:05+00:00",
+      "last_seen": "2026-11-16T15:30:30+00:00",
       "notified": false,
       "source": "DenizBank",
       "title": "Odemenizi Takside Baglayalim",
@@ -13998,7 +14063,7 @@
     },
     "b2009ccf26e3499cc2ff": {
       "first_seen": "2026-10-08T13:14:18+00:00",
-      "last_seen": "2026-11-15T13:52:05+00:00",
+      "last_seen": "2026-11-16T15:30:30+00:00",
       "notified": true,
       "source": "Akbank",
       "title": "Akbank Mobil Fasyaapp Kampanyası Son Gün 31 Aralık 2026",
@@ -14006,7 +14071,7 @@
     },
     "b2221db51d5e04a386e9": {
       "first_seen": "2026-08-19T06:58:02+00:00",
-      "last_seen": "2026-11-15T13:52:05+00:00",
+      "last_seen": "2026-11-16T15:30:30+00:00",
       "notified": false,
       "source": "İş Bankası",
       "title": "Diğer Kampanyalar (7)",
@@ -14014,7 +14079,7 @@
     },
     "b229afc0867663a1a2d7": {
       "first_seen": "2026-08-19T06:58:02+00:00",
-      "last_seen": "2026-11-15T13:52:05+00:00",
+      "last_seen": "2026-11-16T15:30:30+00:00",
       "notified": false,
       "source": "Akbank",
       "title": "Mobilin Akbanklısı ile TOD 1 Aylık Eğlence Paketi",
@@ -14030,7 +14095,7 @@
     },
     "b2a441ad645a04d142e0": {
       "first_seen": "2026-08-19T06:58:02+00:00",
-      "last_seen": "2026-11-15T13:52:05+00:00",
+      "last_seen": "2026-11-16T15:30:30+00:00",
       "notified": false,
       "source": "Akbank",
       "title": "Mobilin Akbanklısı Altın Tefal Kampanyası",
@@ -14054,7 +14119,7 @@
     },
     "b2e82747115ef3b2a23a": {
       "first_seen": "2026-08-19T06:58:02+00:00",
-      "last_seen": "2026-11-15T13:52:05+00:00",
+      "last_seen": "2026-11-16T15:30:30+00:00",
       "notified": false,
       "source": "Akbank",
       "title": "Nakit Akışınla Kazan",
@@ -14142,7 +14207,7 @@
     },
     "b5499732eb58a8f205ea": {
       "first_seen": "2026-08-19T06:58:02+00:00",
-      "last_seen": "2026-11-15T13:52:05+00:00",
+      "last_seen": "2026-11-16T15:30:30+00:00",
       "notified": false,
       "source": "İş Bankası",
       "title": "Ek Hesap Faiz Oranında İndirim Ayrıcalığı Bitiş Tarihi: 31.12.2026 Ayrıcalık kapsamında Black müşterilerine %4,15, Black Plus müşterilerine %4,10 indirimli faiz oranı uygulanmaktadır.",
@@ -14174,7 +14239,7 @@
     },
     "b6fc5c83ec5767b01c15": {
       "first_seen": "2026-08-19T06:58:02+00:00",
-      "last_seen": "2026-11-15T13:52:05+00:00",
+      "last_seen": "2026-11-16T15:30:30+00:00",
       "notified": false,
       "source": "Ziraat Bankası",
       "title": "Avantajlı Kira Hesabı ile Kira Ödemeleriniz Ziraat’te Daha Kolay Avantajlı Kira Hesabı ile Kira Ödemeleriniz Ziraat’te Daha Kolay KAMPANYA DETAY",
@@ -14350,7 +14415,7 @@
     },
     "bb0296c0dab3cc4e7ac2": {
       "first_seen": "2026-08-19T06:58:02+00:00",
-      "last_seen": "2026-11-15T13:52:05+00:00",
+      "last_seen": "2026-11-16T15:30:30+00:00",
       "notified": false,
       "source": "Enpara.com",
       "title": "Findeks risk raporunuzun %50’si bizden!",
@@ -14366,7 +14431,7 @@
     },
     "bb8a54a46a5ee875f65c": {
       "first_seen": "2026-10-12T15:04:46+00:00",
-      "last_seen": "2026-11-15T13:52:05+00:00",
+      "last_seen": "2026-11-16T15:30:30+00:00",
       "notified": true,
       "source": "World (Yapı Kredi Kart)",
       "title": "Troy Kartla Pazaramada Tek Seferde 1250 Tl Ve Uzeri Alisverise 250 Tl Indirim",
@@ -14398,7 +14463,7 @@
     },
     "bc13a8745a2eec4719bb": {
       "first_seen": "2026-08-19T06:58:02+00:00",
-      "last_seen": "2026-11-15T13:52:05+00:00",
+      "last_seen": "2026-11-16T15:30:30+00:00",
       "notified": false,
       "source": "Akbank",
       "title": "Mobilden Akbanklı Olanlara Mobilden “GARAJIM” kodu ile Akbanklı olanlara özel kampanya Son Gün 31 Ağustos 2026",
@@ -14414,7 +14479,7 @@
     },
     "bca019f557d7c8a47518": {
       "first_seen": "2026-09-04T11:03:23+00:00",
-      "last_seen": "2026-11-15T13:52:05+00:00",
+      "last_seen": "2026-11-16T15:30:30+00:00",
       "notified": false,
       "source": "DenizBank",
       "title": "Petlas Zirai Lastik Alimlarinda 3 Ay Vade",
@@ -14422,7 +14487,7 @@
     },
     "bca7643cf5a14edb6684": {
       "first_seen": "2026-09-04T11:03:23+00:00",
-      "last_seen": "2026-11-15T13:52:05+00:00",
+      "last_seen": "2026-11-16T15:30:30+00:00",
       "notified": false,
       "source": "DenizBank",
       "title": "Abalioglu Yem Alimlarinda 4 Aya Varan Vade",
@@ -14462,7 +14527,7 @@
     },
     "bdc93da3e060aa3c11f4": {
       "first_seen": "2026-08-19T06:58:02+00:00",
-      "last_seen": "2026-11-15T13:52:05+00:00",
+      "last_seen": "2026-11-16T15:30:30+00:00",
       "notified": false,
       "source": "Enpara.com",
       "title": "Oyun keyfinizin 150 TL’si bizden!",
@@ -14470,7 +14535,7 @@
     },
     "bdd42c1913d1e0001600": {
       "first_seen": "2026-08-19T06:58:02+00:00",
-      "last_seen": "2026-11-15T13:52:05+00:00",
+      "last_seen": "2026-11-16T15:30:30+00:00",
       "notified": false,
       "source": "Garanti BBVA",
       "title": "Esnafa Ozel Faizsiz Kredi Kampanyasi",
@@ -14510,7 +14575,7 @@
     },
     "be87a0b57e7b84d58efe": {
       "first_seen": "2026-11-01T13:03:33+00:00",
-      "last_seen": "2026-11-15T13:52:05+00:00",
+      "last_seen": "2026-11-16T15:30:30+00:00",
       "notified": true,
       "source": "QNB Kart",
       "title": "Hepsiburada'da peşin fiyatına 6 taksit!",
@@ -14638,7 +14703,7 @@
     },
     "c186a37a2d23373ad9dd": {
       "first_seen": "2026-08-19T06:58:02+00:00",
-      "last_seen": "2026-11-15T13:52:05+00:00",
+      "last_seen": "2026-11-16T15:30:30+00:00",
       "notified": false,
       "source": "Enpara.com",
       "title": "Eğitim/sağlık harcamalarınızı ve vergi/sigorta ödemelerinizi faizsiz sonradan taksitlendirin!",
@@ -14670,7 +14735,7 @@
     },
     "c25d404dc11455534013": {
       "first_seen": "2026-08-19T06:58:02+00:00",
-      "last_seen": "2026-11-15T13:52:05+00:00",
+      "last_seen": "2026-11-16T15:30:30+00:00",
       "notified": false,
       "source": "İş Bankası",
       "title": "Emeklilere Özel (4)",
@@ -14710,7 +14775,7 @@
     },
     "c2d2d7301a0ffcf8a56d": {
       "first_seen": "2026-09-04T11:03:23+00:00",
-      "last_seen": "2026-11-15T13:52:05+00:00",
+      "last_seen": "2026-11-16T15:30:30+00:00",
       "notified": false,
       "source": "DenizBank",
       "title": "Mobildenizden Size Ozel Ihtiyac Kredisi",
@@ -14734,7 +14799,7 @@
     },
     "c2fa4420406b60cbc5b8": {
       "first_seen": "2026-08-19T06:58:02+00:00",
-      "last_seen": "2026-11-15T13:52:05+00:00",
+      "last_seen": "2026-11-16T15:30:30+00:00",
       "notified": false,
       "source": "Akbank",
       "title": "Mobilin Akbanklısı ile A101 Mağazalarında 100 TL İndirim",
@@ -14894,7 +14959,7 @@
     },
     "c65ada2513fae625c921": {
       "first_seen": "2026-10-01T12:55:16+00:00",
-      "last_seen": "2026-11-15T13:52:05+00:00",
+      "last_seen": "2026-11-16T15:30:30+00:00",
       "notified": true,
       "source": "Garanti BBVA",
       "title": "Kampanyayı İncele",
@@ -14982,7 +15047,7 @@
     },
     "c7ae73a854d7fdbe9b1c": {
       "first_seen": "2026-10-24T10:44:38+00:00",
-      "last_seen": "2026-11-14T13:23:41+00:00",
+      "last_seen": "2026-11-16T15:30:30+00:00",
       "notified": false,
       "source": "Deniz Bonus",
       "title": "Gant'te vade farksız 4 taksit!",
@@ -15038,7 +15103,7 @@
     },
     "c8740dbe5132428da39c": {
       "first_seen": "2026-08-19T06:58:02+00:00",
-      "last_seen": "2026-11-15T13:52:05+00:00",
+      "last_seen": "2026-11-16T15:30:30+00:00",
       "notified": false,
       "source": "QNB Kart",
       "title": "QNB Terminal Kadıköy Restoran Harcamalarında %10’dan Başlayan İndirim!",
@@ -15062,7 +15127,7 @@
     },
     "c9c1bfb25e8ea717b47d": {
       "first_seen": "2026-08-19T06:58:02+00:00",
-      "last_seen": "2026-11-15T13:52:05+00:00",
+      "last_seen": "2026-11-16T15:30:30+00:00",
       "notified": false,
       "source": "DenizBank",
       "title": "Afililere Ozel Kampanyalar",
@@ -15086,7 +15151,7 @@
     },
     "ca8fb592ff6ec4a5bdb3": {
       "first_seen": "2026-09-04T11:03:23+00:00",
-      "last_seen": "2026-11-15T13:52:05+00:00",
+      "last_seen": "2026-11-16T15:30:30+00:00",
       "notified": false,
       "source": "DenizBank",
       "title": "Aidat Odemeleriniz Icin 3000 Tlye Varan Nakit Iade",
@@ -15126,7 +15191,7 @@
     },
     "cb4b7803130864b2d1fc": {
       "first_seen": "2026-08-19T06:58:02+00:00",
-      "last_seen": "2026-11-15T13:52:05+00:00",
+      "last_seen": "2026-11-16T15:30:30+00:00",
       "notified": false,
       "source": "Akbank",
       "title": "Sosyopix Doğum Günü Kampanyası",
@@ -15142,7 +15207,7 @@
     },
     "cb8df8f3da0e70fe1c5a": {
       "first_seen": "2026-09-04T11:03:23+00:00",
-      "last_seen": "2026-11-15T13:52:05+00:00",
+      "last_seen": "2026-11-16T15:30:30+00:00",
       "notified": false,
       "source": "DenizBank",
       "title": "Tarimsal Elektrik Faturalarina Vade Avantaji",
@@ -15174,7 +15239,7 @@
     },
     "cbf6020c2d12de0525a9": {
       "first_seen": "2026-08-19T06:58:02+00:00",
-      "last_seen": "2026-11-15T13:52:05+00:00",
+      "last_seen": "2026-11-16T15:30:30+00:00",
       "notified": false,
       "source": "İş Bankası",
       "title": "İşCep Aracım Kullanıcıları Kasko Sigortasında Avantajlı! Bitiş Tarihi: 31.12.2026 İşCep Aracım uygulamasında kayıtlı aracı olan İşCep kullanıcıları, İş Bankası aracılığıyla 31 Aralık 2026’ya kadar Anadolu Sigorta’dan yen",
@@ -15198,7 +15263,7 @@
     },
     "cc21ba8a9522701e462c": {
       "first_seen": "2026-08-19T06:58:02+00:00",
-      "last_seen": "2026-11-15T13:52:05+00:00",
+      "last_seen": "2026-11-16T15:30:30+00:00",
       "notified": false,
       "source": "Akbank",
       "title": "Sosyopix Kampanya",
@@ -15222,7 +15287,7 @@
     },
     "cc6a9efefe5fc7d39ee2": {
       "first_seen": "2026-09-04T11:03:23+00:00",
-      "last_seen": "2026-11-15T13:52:05+00:00",
+      "last_seen": "2026-11-16T15:30:30+00:00",
       "notified": false,
       "source": "DenizBank",
       "title": "Avukatlara Ozel Aylik 750 Tl Nakit Iade Firsati",
@@ -15230,7 +15295,7 @@
     },
     "cc989172fde3dd6a79b8": {
       "first_seen": "2026-08-19T06:58:02+00:00",
-      "last_seen": "2026-11-15T13:52:05+00:00",
+      "last_seen": "2026-11-16T15:30:30+00:00",
       "notified": false,
       "source": "DenizBank",
       "title": "Birikimlerinize Hoş Geldin Faizi ile değer katın!",
@@ -15254,7 +15319,7 @@
     },
     "ccf4b1d5523a408e32a4": {
       "first_seen": "2026-08-19T06:58:02+00:00",
-      "last_seen": "2026-11-15T13:52:05+00:00",
+      "last_seen": "2026-11-16T15:30:30+00:00",
       "notified": false,
       "source": "Akbank",
       "title": "Bilet.com Yunan Adaları Kampanya",
@@ -15270,7 +15335,7 @@
     },
     "cd3f965acbb864ceae91": {
       "first_seen": "2026-10-24T10:44:38+00:00",
-      "last_seen": "2026-11-14T13:23:41+00:00",
+      "last_seen": "2026-11-16T15:30:30+00:00",
       "notified": true,
       "source": "Deniz Bonus",
       "title": "PUMA'da 6 taksit!",
@@ -15342,7 +15407,7 @@
     },
     "d0ba65f15400e96f4b3c": {
       "first_seen": "2026-08-19T06:58:02+00:00",
-      "last_seen": "2026-11-15T13:52:05+00:00",
+      "last_seen": "2026-11-16T15:30:30+00:00",
       "notified": false,
       "source": "Garanti BBVA",
       "title": "Musteri Ol Trendyol Go Kampanyasi",
@@ -15366,7 +15431,7 @@
     },
     "d132e355ddb134cb01c8": {
       "first_seen": "2026-10-07T13:07:44+00:00",
-      "last_seen": "2026-11-15T13:52:05+00:00",
+      "last_seen": "2026-11-16T15:30:30+00:00",
       "notified": true,
       "source": "DenizBank",
       "title": "Tarimsal Elektrik Faturalarina 2 Aya Varan Vade Avantaji",
@@ -15398,7 +15463,7 @@
     },
     "d26825978ea6db8be024": {
       "first_seen": "2026-08-19T06:58:02+00:00",
-      "last_seen": "2026-11-15T13:52:05+00:00",
+      "last_seen": "2026-11-16T15:30:30+00:00",
       "notified": false,
       "source": "Enpara.com",
       "title": "MüzeKart’ınız bizden!",
@@ -15502,7 +15567,7 @@
     },
     "d3c3db0249c642b9f488": {
       "first_seen": "2026-09-04T11:03:23+00:00",
-      "last_seen": "2026-11-15T13:52:05+00:00",
+      "last_seen": "2026-11-16T15:30:30+00:00",
       "notified": false,
       "source": "DenizBank",
       "title": "Sosyopixte Indirim Ayricaligi",
@@ -15526,7 +15591,7 @@
     },
     "d49873c64fa99bc7e571": {
       "first_seen": "2026-08-19T06:58:02+00:00",
-      "last_seen": "2026-11-15T13:52:05+00:00",
+      "last_seen": "2026-11-16T15:30:30+00:00",
       "notified": false,
       "source": "Akbank",
       "title": "Tiktak Araç Kiralama Kampanyası",
@@ -15566,7 +15631,7 @@
     },
     "d5a3b198b9a58f921547": {
       "first_seen": "2026-11-01T13:03:33+00:00",
-      "last_seen": "2026-11-15T13:52:05+00:00",
+      "last_seen": "2026-11-16T15:30:30+00:00",
       "notified": true,
       "source": "Akbank",
       "title": "Davet Et Kazan Yakınlarınızı Akbanklı olmaya davet edin Son Gün 30 Kasım 2026 Yeni",
@@ -15574,7 +15639,7 @@
     },
     "d5c4896f851ead4b849e": {
       "first_seen": "2026-08-19T06:58:02+00:00",
-      "last_seen": "2026-11-15T13:52:05+00:00",
+      "last_seen": "2026-11-16T15:30:30+00:00",
       "notified": false,
       "source": "Akbank",
       "title": "%0 Faizli Taksitli Avans Kampanyası",
@@ -15582,7 +15647,7 @@
     },
     "d5cc6f51caf7708e2e1f": {
       "first_seen": "2026-11-12T15:02:53+00:00",
-      "last_seen": "2026-11-15T13:52:05+00:00",
+      "last_seen": "2026-11-16T15:30:30+00:00",
       "notified": true,
       "source": "İş Bankası",
       "title": "Europcar'da 1.000 TL MaxiPuan Fırsatı Bu Kampanya Sona Ermiştir.",
@@ -15590,7 +15655,7 @@
     },
     "d5d73fa3469638ac11cb": {
       "first_seen": "2026-09-04T11:03:23+00:00",
-      "last_seen": "2026-11-15T13:52:05+00:00",
+      "last_seen": "2026-11-16T15:30:30+00:00",
       "notified": false,
       "source": "DenizBank",
       "title": "Mobildenize Ozel Tiktakta 1000 Tl Indirim",
@@ -15614,7 +15679,7 @@
     },
     "d64d98d58c1a76e186ca": {
       "first_seen": "2026-08-19T06:58:02+00:00",
-      "last_seen": "2026-11-15T13:52:05+00:00",
+      "last_seen": "2026-11-16T15:30:30+00:00",
       "notified": false,
       "source": "İş Bankası",
       "title": "Fatura Kampanyaları (1)",
@@ -15622,7 +15687,7 @@
     },
     "d684121ae3b80c9a0dbb": {
       "first_seen": "2026-08-19T06:58:02+00:00",
-      "last_seen": "2026-11-15T13:52:05+00:00",
+      "last_seen": "2026-11-16T15:30:30+00:00",
       "notified": false,
       "source": "İş Bankası",
       "title": "Maximum Kart Kampanyaları (7)",
@@ -15694,7 +15759,7 @@
     },
     "d81e4355413f894c8cb5": {
       "first_seen": "2026-11-02T15:25:07+00:00",
-      "last_seen": "2026-11-14T13:23:41+00:00",
+      "last_seen": "2026-11-16T15:30:30+00:00",
       "notified": false,
       "source": "Deniz Bonus",
       "title": "10.000 TL ve Üzeri Giyim, Aksesuar, Ayakkabı ve Optik Alışverişlerinize 1.000 TL İndirim Fırsatı!",
@@ -15726,7 +15791,7 @@
     },
     "d8dec0cda14cf293afd4": {
       "first_seen": "2026-09-04T11:03:23+00:00",
-      "last_seen": "2026-11-15T13:52:05+00:00",
+      "last_seen": "2026-11-16T15:30:30+00:00",
       "notified": false,
       "source": "DenizBank",
       "title": "Balyem Yem Alimlarinda 3 Ay Vade",
@@ -15734,7 +15799,7 @@
     },
     "d8e3b1b493736346bb5e": {
       "first_seen": "2026-08-19T06:58:02+00:00",
-      "last_seen": "2026-11-15T13:52:05+00:00",
+      "last_seen": "2026-11-16T15:30:30+00:00",
       "notified": false,
       "source": "İş Bankası",
       "title": "Bireysel Emeklilik ve Sigorta (2)",
@@ -15750,7 +15815,7 @@
     },
     "d914ebbc859d9a61b886": {
       "first_seen": "2026-11-02T15:25:07+00:00",
-      "last_seen": "2026-11-14T13:23:41+00:00",
+      "last_seen": "2026-11-16T15:30:30+00:00",
       "notified": true,
       "source": "Deniz Bonus",
       "title": "Elektronik Alışverişlerinize 3.500 TL İndirim!",
@@ -15814,7 +15879,7 @@
     },
     "da475c02b2e76135fa02": {
       "first_seen": "2026-10-30T12:35:56+00:00",
-      "last_seen": "2026-11-15T13:52:05+00:00",
+      "last_seen": "2026-11-16T15:30:30+00:00",
       "notified": true,
       "source": "DenizBank",
       "title": "2 Ay Faizsiz 30000 Tl Ye Varan Nakit Avans Kampanyasi",
@@ -15854,7 +15919,7 @@
     },
     "dade795bc4c241fb98ca": {
       "first_seen": "2026-08-19T06:58:02+00:00",
-      "last_seen": "2026-11-15T13:52:05+00:00",
+      "last_seen": "2026-11-16T15:30:30+00:00",
       "notified": false,
       "source": "Akbank",
       "title": "Eczacım Kazansın Kampanyası",
@@ -15926,7 +15991,7 @@
     },
     "dc9bec754fae8c23aff7": {
       "first_seen": "2026-08-19T06:58:02+00:00",
-      "last_seen": "2026-11-15T13:52:05+00:00",
+      "last_seen": "2026-11-16T15:30:30+00:00",
       "notified": false,
       "source": "İş Bankası",
       "title": "Akaryakıt Kampanyaları (3)",
@@ -15982,7 +16047,7 @@
     },
     "dd71aad0529178a9f759": {
       "first_seen": "2026-08-19T06:58:02+00:00",
-      "last_seen": "2026-11-15T13:52:05+00:00",
+      "last_seen": "2026-11-16T15:30:30+00:00",
       "notified": false,
       "source": "Akbank",
       "title": "Mobilin Akbanklısı Ücretsiz Havale Avantajı",
@@ -16006,7 +16071,7 @@
     },
     "ddbb8d56765c1c43135f": {
       "first_seen": "2026-10-06T13:12:03+00:00",
-      "last_seen": "2026-11-15T13:52:05+00:00",
+      "last_seen": "2026-11-16T15:30:30+00:00",
       "notified": true,
       "source": "World (Yapı Kredi Kart)",
       "title": "Worldun 35Yilina Ozel Maserati Grecale Alfa Romeo Tonale Iphone 18 Pro Apple Watch Kazanma Sansi",
@@ -16014,7 +16079,7 @@
     },
     "de4970b17a04dc00fe17": {
       "first_seen": "2026-08-19T06:58:02+00:00",
-      "last_seen": "2026-11-15T13:52:05+00:00",
+      "last_seen": "2026-11-16T15:30:30+00:00",
       "notified": false,
       "source": "İş Bankası",
       "title": "Ucuzabilet.com’da Peşin Fiyatına 3 Aya Varan Taksit Fırsatı! Bitiş Tarihi: 31.12.2026 01 Ocak - 31 Aralık 2026 tarihleri arasında Maximum Kart’ınız ile ucuzabilet.com’dan gerçekleştireceğiniz yurt içi uçak ve otobüs bile",
@@ -16086,7 +16151,7 @@
     },
     "df230c924d6d4c5c4f24": {
       "first_seen": "2026-08-19T06:58:02+00:00",
-      "last_seen": "2026-11-15T13:52:05+00:00",
+      "last_seen": "2026-11-16T15:30:30+00:00",
       "notified": false,
       "source": "Akbank",
       "title": "POS Üye İşyeri Kampanyası Son Gün 31 Ağustos 2026",
@@ -16102,7 +16167,7 @@
     },
     "df87de82d84b83ba26b7": {
       "first_seen": "2026-10-24T10:44:38+00:00",
-      "last_seen": "2026-11-14T13:23:41+00:00",
+      "last_seen": "2026-11-16T15:30:30+00:00",
       "notified": true,
       "source": "Deniz Bonus",
       "title": "Sigorta ve BES ödemelerinize 3 Taksit!",
@@ -16182,7 +16247,7 @@
     },
     "e28a955423824a974c2f": {
       "first_seen": "2026-10-24T10:44:38+00:00",
-      "last_seen": "2026-11-14T13:23:41+00:00",
+      "last_seen": "2026-11-16T15:30:30+00:00",
       "notified": false,
       "source": "Deniz Bonus",
       "title": "Converse'de vade farksız 4 taksit!",
@@ -16278,7 +16343,7 @@
     },
     "e45fcbd9cabf2c320d79": {
       "first_seen": "2026-08-19T06:58:02+00:00",
-      "last_seen": "2026-11-15T13:52:05+00:00",
+      "last_seen": "2026-11-16T15:30:30+00:00",
       "notified": false,
       "source": "İş Bankası",
       "title": "Pos Kampanyaları",
@@ -16404,6 +16469,14 @@
       "title": "Yazarkasa POS Worldline Kampanya",
       "url": "https://www.akbank.com/kampanyalar/yazarkasa-pos-worldline-kampanya"
     },
+    "e7246a7e42c0b491b7b6": {
+      "first_seen": "2026-11-16T15:30:30+00:00",
+      "last_seen": "2026-11-16T15:36:54+00:00",
+      "notified": true,
+      "source": "QNB",
+      "title": "Iphone Duo Kazanma Sansi Qnb Mobilde 23045",
+      "url": "https://www.qnb.com.tr/kampanyalar/diger-kampanyalar/iphone-duo-kazanma-sansi-qnb-mobilde-23045"
+    },
     "e76ecd16ea574b02cc16": {
       "first_seen": "2026-08-20T06:59:31+00:00",
       "last_seen": "2026-11-15T13:52:05+00:00",
@@ -16446,7 +16519,7 @@
     },
     "e8c318cc6652d32d1d46": {
       "first_seen": "2026-08-19T06:58:02+00:00",
-      "last_seen": "2026-11-15T13:52:05+00:00",
+      "last_seen": "2026-11-16T15:30:30+00:00",
       "notified": false,
       "source": "Akbank",
       "title": "Dijital Platform Kampanyası",
@@ -16494,7 +16567,7 @@
     },
     "e9c00c2711e9671b7f91": {
       "first_seen": "2026-08-19T06:58:02+00:00",
-      "last_seen": "2026-11-15T13:52:05+00:00",
+      "last_seen": "2026-11-16T15:30:30+00:00",
       "notified": false,
       "source": "Akbank",
       "title": "Akbank’a özel Denebunu Sürpriz Kutu hediyesi",
@@ -16518,7 +16591,7 @@
     },
     "e9fbdd9dcb7bce8b51ea": {
       "first_seen": "2026-08-19T06:58:02+00:00",
-      "last_seen": "2026-11-15T13:52:05+00:00",
+      "last_seen": "2026-11-16T15:30:30+00:00",
       "notified": false,
       "source": "İş Bankası",
       "title": "Emekli Maaşını İş Bankası’ndan alan müşterilerimize özel %4,19 İndirimli Faiz Oranı ile Ek Hesap! Bitiş Tarihi: 30.09.2026 Emekli maaşınızı İş Bankası’ndan alıyorsanız nakde ihtiyacınız olduğunda İş Bankası Ek Hesap limi",
@@ -16526,7 +16599,7 @@
     },
     "ea0fba4884db92a3f48a": {
       "first_seen": "2026-08-19T06:58:02+00:00",
-      "last_seen": "2026-11-15T13:52:05+00:00",
+      "last_seen": "2026-11-16T15:30:30+00:00",
       "notified": false,
       "source": "DenizBank",
       "title": "Kart Kampanyalari",
@@ -16534,7 +16607,7 @@
     },
     "ea2e91726dbc4bbaf6fe": {
       "first_seen": "2026-08-19T06:58:02+00:00",
-      "last_seen": "2026-11-15T13:52:05+00:00",
+      "last_seen": "2026-11-16T15:30:30+00:00",
       "notified": false,
       "source": "Akbank",
       "title": "Ticari Borç Transferi Kredisi Kampanyası",
@@ -16590,7 +16663,7 @@
     },
     "eb06769fc2218b7db132": {
       "first_seen": "2026-10-24T10:44:38+00:00",
-      "last_seen": "2026-11-14T13:23:41+00:00",
+      "last_seen": "2026-11-16T15:30:30+00:00",
       "notified": true,
       "source": "Deniz Bonus",
       "title": "Vergi Ödemelerinize 4’e Varan Taksit!",
@@ -16598,7 +16671,7 @@
     },
     "eb18dc50fafd09ff5c26": {
       "first_seen": "2026-08-19T06:58:02+00:00",
-      "last_seen": "2026-11-15T13:52:05+00:00",
+      "last_seen": "2026-11-16T15:30:30+00:00",
       "notified": false,
       "source": "İş Bankası",
       "title": "Maaşını İş Bankası’ndan alan müşterilerimize özel %4,19 İndirimli Faiz Oranı ile Ek Hesap! Bitiş Tarihi: 30.09.2026 Maaşınızı İş Bankası’ndan alıyorsanız nakde ihtiyacınız olduğunda İş Bankası Ek Hesap limitinizi 1 Ocak ",
@@ -16606,7 +16679,7 @@
     },
     "eb3ae766b9f214fb8810": {
       "first_seen": "2026-08-19T06:58:02+00:00",
-      "last_seen": "2026-11-15T13:52:05+00:00",
+      "last_seen": "2026-11-16T15:30:30+00:00",
       "notified": false,
       "source": "Garanti BBVA",
       "title": "Yakinini Davet Et Kampanyasi",
@@ -16678,7 +16751,7 @@
     },
     "ec893e10dcbbcd72af11": {
       "first_seen": "2026-08-19T06:58:02+00:00",
-      "last_seen": "2026-11-15T13:52:05+00:00",
+      "last_seen": "2026-11-16T15:30:30+00:00",
       "notified": false,
       "source": "Garanti BBVA",
       "title": "Musteri Ol Boyner Kampanyasi",
@@ -16702,7 +16775,7 @@
     },
     "ecea0a6d2a88a16e0d75": {
       "first_seen": "2026-08-19T06:58:02+00:00",
-      "last_seen": "2026-11-15T13:52:05+00:00",
+      "last_seen": "2026-11-16T15:30:30+00:00",
       "notified": false,
       "source": "Akbank",
       "title": "Mobilin Akbanklısı ile Getir’de İndirim",
@@ -16718,7 +16791,7 @@
     },
     "ed2938fa00db7d4f3648": {
       "first_seen": "2026-09-15T11:33:10+00:00",
-      "last_seen": "2026-11-15T13:52:05+00:00",
+      "last_seen": "2026-11-16T15:30:30+00:00",
       "notified": true,
       "source": "Akbank",
       "title": "Akbank Mobil Tesla Çekiliş Kampanyası",
@@ -16742,7 +16815,7 @@
     },
     "ee264658678a2e571d65": {
       "first_seen": "2026-08-19T06:58:02+00:00",
-      "last_seen": "2026-11-15T13:52:05+00:00",
+      "last_seen": "2026-11-16T15:30:30+00:00",
       "notified": false,
       "source": "Enpara.com",
       "title": "%0 faizli 25.000 TL’ye kadar Taksitli Nakit Avans!",
@@ -16822,7 +16895,7 @@
     },
     "ef04ecae719f793f3343": {
       "first_seen": "2026-08-19T06:58:02+00:00",
-      "last_seen": "2026-11-15T13:52:05+00:00",
+      "last_seen": "2026-11-16T15:30:30+00:00",
       "notified": false,
       "source": "Akbank",
       "title": "Akbank Mobil Ino Beauty indirimi Akbank Mobil’de Son Gün 31 Ağustos 2026",
@@ -16830,7 +16903,7 @@
     },
     "ef0aec2303ece1c12373": {
       "first_seen": "2026-08-19T06:58:02+00:00",
-      "last_seen": "2026-11-15T13:52:05+00:00",
+      "last_seen": "2026-11-16T15:30:30+00:00",
       "notified": false,
       "source": "İş Bankası",
       "title": "E-Ticaret Kampanyaları (10)",
@@ -16886,7 +16959,7 @@
     },
     "f03bc509f4f13211e42b": {
       "first_seen": "2026-11-02T15:25:07+00:00",
-      "last_seen": "2026-11-15T13:52:05+00:00",
+      "last_seen": "2026-11-16T15:30:30+00:00",
       "notified": true,
       "source": "DenizBank",
       "title": "Cok Yakinda",
@@ -16934,7 +17007,7 @@
     },
     "f10f01c2bbc0f641da67": {
       "first_seen": "2026-11-09T15:50:52+00:00",
-      "last_seen": "2026-11-14T13:23:41+00:00",
+      "last_seen": "2026-11-16T15:30:30+00:00",
       "notified": true,
       "source": "Deniz Bonus",
       "title": "DenizBank Kampanyaları",
@@ -16942,7 +17015,7 @@
     },
     "f12694c447bc963e332a": {
       "first_seen": "2026-08-19T06:58:02+00:00",
-      "last_seen": "2026-11-15T13:52:05+00:00",
+      "last_seen": "2026-11-16T15:30:30+00:00",
       "notified": false,
       "source": "Halkbank",
       "title": "Detaylı Bilgi",
@@ -16950,7 +17023,7 @@
     },
     "f12b48a7557191348c06": {
       "first_seen": "2026-08-19T06:58:02+00:00",
-      "last_seen": "2026-11-15T13:52:05+00:00",
+      "last_seen": "2026-11-16T15:30:30+00:00",
       "notified": false,
       "source": "Akbank",
       "title": "%0 faiz oranlı Taksitli Artı Para fırsatı",
@@ -16958,7 +17031,7 @@
     },
     "f15b09fc711f24392463": {
       "first_seen": "2026-08-19T06:58:02+00:00",
-      "last_seen": "2026-11-15T13:52:05+00:00",
+      "last_seen": "2026-11-16T15:30:30+00:00",
       "notified": false,
       "source": "İş Bankası",
       "title": "Ücretsiz İş Portföy Aylık Yatırım Fonları Bülteni Bitiş Tarihi: 31.12.2026 ​Aylık Yatırım Fonları Bülteni ile yatırım fonlarına dair bilgilendirmelerden haberdar olun.",
@@ -17014,7 +17087,7 @@
     },
     "f2e2039e880cee21544d": {
       "first_seen": "2026-08-19T06:58:02+00:00",
-      "last_seen": "2026-11-15T13:52:05+00:00",
+      "last_seen": "2026-11-16T15:30:30+00:00",
       "notified": false,
       "source": "Enpara.com",
       "title": "Kitap keyfinizin 250 TL'si ve 1 kitap bizden!",
@@ -17054,7 +17127,7 @@
     },
     "f3cf53681cee28d6f22f": {
       "first_seen": "2026-08-19T06:58:02+00:00",
-      "last_seen": "2026-11-15T13:52:05+00:00",
+      "last_seen": "2026-11-16T15:30:30+00:00",
       "notified": false,
       "source": "Enpara.com",
       "title": "Tiyatro keyfinizin 250 TL’si bizden!",
@@ -17078,7 +17151,7 @@
     },
     "f4ec5048d597a6ac6c5e": {
       "first_seen": "2026-09-04T11:03:23+00:00",
-      "last_seen": "2026-11-15T13:52:05+00:00",
+      "last_seen": "2026-11-16T15:30:30+00:00",
       "notified": true,
       "source": "DenizBank",
       "title": "Ozelbeslenmecomda Indirim",
@@ -17110,7 +17183,7 @@
     },
     "f58472e962334ae57b26": {
       "first_seen": "2026-08-19T06:58:02+00:00",
-      "last_seen": "2026-11-15T13:52:05+00:00",
+      "last_seen": "2026-11-16T15:30:30+00:00",
       "notified": false,
       "source": "Akbank",
       "title": "Mobilin Akbanklısı Ücretsiz Limit Üstü Para Çekme Avantajı",
@@ -17118,7 +17191,7 @@
     },
     "f597372e01a6007ef34d": {
       "first_seen": "2026-11-01T13:03:33+00:00",
-      "last_seen": "2026-11-15T13:52:05+00:00",
+      "last_seen": "2026-11-16T15:30:30+00:00",
       "notified": true,
       "source": "Getir Finans",
       "title": "Mavi’de peşin fiyatına 6 taksit son gün: 28 Şubat 2027",
@@ -17171,6 +17244,14 @@
       "source": "VakıfBank (Vakıfkart)",
       "title": "Eğitim kurumu peşin harcamalarınıza faizsiz 4 taksit fırsatı!",
       "url": "https://www.vakifkart.com.tr/kampanyalar/egitim-kurumu-pesin-harcamalariniza-faizsiz-4-taksit-firsati-40969"
+    },
+    "f6ca0796b186dfa51027": {
+      "first_seen": "2026-11-16T15:30:30+00:00",
+      "last_seen": "2026-11-16T15:36:54+00:00",
+      "notified": true,
+      "source": "İş Bankası",
+      "title": "Shell İstasyonlarında 500 TL MaxiPuan Fırsatı Bu Kampanya Sona Ermiştir.",
+      "url": "https://www.isbank.com.tr/kampanyalar/shell-maxipuan-kampanyasi"
     },
     "f6d506621faafb1ac01f": {
       "first_seen": "2026-08-20T06:59:31+00:00",
@@ -17246,7 +17327,7 @@
     },
     "f7a8f58915af27f170d8": {
       "first_seen": "2026-08-19T06:58:02+00:00",
-      "last_seen": "2026-11-15T13:52:05+00:00",
+      "last_seen": "2026-11-16T15:30:30+00:00",
       "notified": false,
       "source": "Akbank",
       "title": "Üniversiteli Akbanklı Genç Akbanklı Stablex Kampanyası Son Gün 30 Ağustos 2026",
@@ -17350,7 +17431,7 @@
     },
     "f92779c2c90c563fe53c": {
       "first_seen": "2026-08-19T06:58:02+00:00",
-      "last_seen": "2026-11-15T13:52:05+00:00",
+      "last_seen": "2026-11-16T15:30:30+00:00",
       "notified": false,
       "source": "Akbank",
       "title": "Akbanklı Kadınlar Platformu’na Özel Kazandıran Harçlık Hesap!",
@@ -17414,7 +17495,7 @@
     },
     "fa19eae93b4cec88f6f5": {
       "first_seen": "2026-09-04T11:03:23+00:00",
-      "last_seen": "2026-11-15T13:52:05+00:00",
+      "last_seen": "2026-11-16T15:30:30+00:00",
       "notified": false,
       "source": "DenizBank",
       "title": "Denizbank Business Kartla Harcadikca Kazandiran Firsat",
@@ -17478,7 +17559,7 @@
     },
     "fb2c0cc0911ee229e550": {
       "first_seen": "2026-09-25T11:37:08+00:00",
-      "last_seen": "2026-11-15T13:52:05+00:00",
+      "last_seen": "2026-11-16T15:30:30+00:00",
       "notified": true,
       "source": "Akbank",
       "title": "Akbanklı Kadınlar Platformu’na Özel Beije Deneme Paketi Hediye",
@@ -17494,7 +17575,7 @@
     },
     "fb341c421d67494d9950": {
       "first_seen": "2026-08-19T06:58:02+00:00",
-      "last_seen": "2026-11-15T13:52:05+00:00",
+      "last_seen": "2026-11-16T15:30:30+00:00",
       "notified": false,
       "source": "Akbank",
       "title": "Bilet.com Etkinlik Kampanyası",
@@ -17510,7 +17591,7 @@
     },
     "fb7d4a73036ff466b3df": {
       "first_seen": "2026-08-19T06:58:02+00:00",
-      "last_seen": "2026-11-15T13:52:05+00:00",
+      "last_seen": "2026-11-16T15:30:30+00:00",
       "notified": false,
       "source": "Akbank",
       "title": "Mobilin Akbanklısı FLO Kampanyası",
@@ -17582,7 +17663,7 @@
     },
     "fd6e0c1f512073a30658": {
       "first_seen": "2026-08-19T06:58:02+00:00",
-      "last_seen": "2026-11-15T13:52:05+00:00",
+      "last_seen": "2026-11-16T15:30:30+00:00",
       "notified": false,
       "source": "Akbank",
       "title": "English Home Kampanyası",
@@ -17598,7 +17679,7 @@
     },
     "fea555b838f7e5b201db": {
       "first_seen": "2026-08-19T06:58:02+00:00",
-      "last_seen": "2026-11-15T13:52:05+00:00",
+      "last_seen": "2026-11-16T15:30:30+00:00",
       "notified": false,
       "source": "Getir Finans",
       "title": "hesap kartınla spotify harcamana %20 anında nakit iade son gün: 31 Ağustos 2026",
@@ -17638,7 +17719,7 @@
     },
     "ff1df960a6de416d901f": {
       "first_seen": "2026-08-19T06:58:02+00:00",
-      "last_seen": "2026-11-15T13:52:05+00:00",
+      "last_seen": "2026-11-16T15:30:30+00:00",
       "notified": false,
       "source": "Akbank",
       "title": "Akbank Araç Kampanyası",
@@ -17646,7 +17727,7 @@
     },
     "ff4da645709b7ad53652": {
       "first_seen": "2026-08-19T06:58:02+00:00",
-      "last_seen": "2026-11-15T13:52:05+00:00",
+      "last_seen": "2026-11-16T15:30:30+00:00",
       "notified": false,
       "source": "Garanti BBVA",
       "title": "Enterprise Kampanyasi",
